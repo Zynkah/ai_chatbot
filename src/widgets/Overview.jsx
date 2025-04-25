@@ -8,7 +8,7 @@ const GeneralOptions = (props) => {
       id: 1,
     },
     {
-      name: "How do I find my wallet?",
+      name: "How do I fund my wallet?",
       handler: props.actionProvider.handleFindWallet,
       id: 2,
     },
@@ -16,6 +16,11 @@ const GeneralOptions = (props) => {
       name: "Minimum to play?",
       handler: props.actionProvider.handleMinimumAmount,
       id: 3,
+    },
+    {
+      name: "Trouble funding account?",
+      handler: props.actionProvider.handleTroubleFunding,
+      id: 4,
     },
   ];
   return <Options options={options} title="Options" {...props} />;

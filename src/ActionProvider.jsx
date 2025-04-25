@@ -79,7 +79,24 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
           ...prev,
           messages: [...prev.messages, botMessage],
         }));
-      };
+  };
+  
+        const handleTroubleFunding = () => {
+          const botMessage = createChatBotMessage(
+            "If you have trouble funding your account:",
+            {
+              widget: "troubleFunding",
+              loading: true,
+              terminateLoading: true,
+              withAvatar: true,
+            }
+          );
+
+          setState((prev) => ({
+            ...prev,
+            messages: [...prev.messages, botMessage],
+          }));
+        };
 
   return (
     <div>
@@ -91,6 +108,7 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
             handlePrivy,
             handleFindWallet,
             handleMinimumAmount,
+            handleTroubleFunding,
           },
         });
       })}

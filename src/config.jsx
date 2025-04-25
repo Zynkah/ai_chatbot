@@ -5,6 +5,7 @@ import Overview from "./widgets/Overview";
 import PrivyInfo from "./widgets/PrivyInfo";
 import FindWallet from "./widgets/FindWallet";
 import MinimumAmount from "./widgets/MinimumAmount";
+import TroubleFunding from "./widgets/TroubleFunding";
 
 const botName = "9S";
 
@@ -40,6 +41,10 @@ const config = {
     {
       widgetName: "minAmount",
       widgetFunc: () => <MinimumAmount />,
+    },
+    {
+      widgetName: "troubleFunding",
+      widgetFunc: () => <TroubleFunding />,
     },
   ],
   botName: botName,
