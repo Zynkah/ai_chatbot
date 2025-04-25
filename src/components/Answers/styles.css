@@ -3,4 +3,13 @@
     border: 1px solid hotpink;
     border-radius: 5px;
     color: hotpink;
+
+    & ul {
+       padding-inline-start: 20px;
+    }
+
+    & li{
+    text-align: left;
+    text-wrap: balance;
+    }
 }

@@ -6,6 +6,7 @@ import PrivyInfo from "./widgets/PrivyInfo";
 import FindWallet from "./widgets/FindWallet";
 import MinimumAmount from "./widgets/MinimumAmount";
 import TroubleFunding from "./widgets/TroubleFunding";
+import { SupportedNetworks } from "./widgets/SupportedNetworks";
 
 const botName = "9S";
 
@@ -45,6 +46,10 @@ const config = {
     {
       widgetName: "troubleFunding",
       widgetFunc: () => <TroubleFunding />,
+    },
+    {
+      widgetName: "supportedNetworks",
+      widgetFunc: () => <SupportedNetworks />,
     },
   ],
   botName: botName,

@@ -25,6 +25,10 @@ const MessageParser = ({ children, actions }) => {
     if (message.includes('trouble')) {
       actions.handleTroubleFunding();
     }
+
+    if (message.includes('network')) {
+      actions.handleSupportedNetworks();
+    }
   };
 
   return (

@@ -1,6 +1,10 @@
 import React from "react";
 
-export const ActionProvider = ({ createChatBotMessage, setState, children }) => {
+export const ActionProvider = ({
+  createChatBotMessage,
+  setState,
+  children,
+}) => {
   const handleHello = () => {
     const botMessage = createChatBotMessage(
       "Nice to meet you. You can call me Nines."
@@ -43,15 +47,65 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
-      
     }));
   };
 
-    const handleFindWallet = () => {
+  const handleFindWallet = () => {
+    const botMessage = createChatBotMessage(
+      "Here is how you find your wallet in Privy:",
+      {
+        widget: "findWallet",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true,
+      }
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const handleMinimumAmount = () => {
+    const botMessage = createChatBotMessage(
+      "What is the minimum amount of FARE to play:",
+      {
+        widget: "minAmount",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true,
+      }
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const handleTroubleFunding = () => {
+    const botMessage = createChatBotMessage(
+      "If you have trouble funding your account:",
+      {
+        widget: "troubleFunding",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true,
+      }
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+    const handleSupportedNetworks = () => {
       const botMessage = createChatBotMessage(
-        "Here is how you find your wallet in Privy:",
+        "Which networks does Fareplay support for funding my account:",
         {
-          widget: "findWallet",
+          widget: "supportedNetworks",
           loading: true,
           terminateLoading: true,
           withAvatar: true,
@@ -62,41 +116,7 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
         ...prev,
         messages: [...prev.messages, botMessage],
       }));
-  };
-  
-      const handleMinimumAmount = () => {
-        const botMessage = createChatBotMessage(
-          "What is the minimum amount of FARE to play:",
-          {
-            widget: "minAmount",
-            loading: true,
-            terminateLoading: true,
-            withAvatar: true,
-          }
-        );
-
-        setState((prev) => ({
-          ...prev,
-          messages: [...prev.messages, botMessage],
-        }));
-  };
-  
-        const handleTroubleFunding = () => {
-          const botMessage = createChatBotMessage(
-            "If you have trouble funding your account:",
-            {
-              widget: "troubleFunding",
-              loading: true,
-              terminateLoading: true,
-              withAvatar: true,
-            }
-          );
-
-          setState((prev) => ({
-            ...prev,
-            messages: [...prev.messages, botMessage],
-          }));
-        };
+    };
 
   return (
     <div>
@@ -109,6 +129,7 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
             handleFindWallet,
             handleMinimumAmount,
             handleTroubleFunding,
+            handleSupportedNetworks,
           },
         });
       })}

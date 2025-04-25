@@ -11,3 +11,15 @@ export const AnswerComponent = ({ info, info_2, info_3 }) => {
       </div>
     );
 }
+
+export const ListedAnswerComponents = ({ info, listItem, listItem_2 }) => {
+  return (
+    <div className="answerWrapper">
+      <p>{info}</p>
+      <ul>
+        <li>{listItem}</li>
+        <li>{listItem_2}</li>
+      </ul>
+    </div>
+  );
+}

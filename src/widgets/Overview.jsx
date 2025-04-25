@@ -22,6 +22,11 @@ const GeneralOptions = (props) => {
       handler: props.actionProvider.handleTroubleFunding,
       id: 4,
     },
+    {
+      name: "Supported Networks?",
+      handler: props.actionProvider.handleSupportedNetworks,
+      id: 4,
+    },
   ];
   return <Options options={options} title="Options" {...props} />;
 };
