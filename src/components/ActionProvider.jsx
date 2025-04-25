@@ -1,6 +1,6 @@
 import React from "react";
 
-const ActionProvider = ({ createChatBotMessage, setState, children }) => {
+export const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   const handleHello = () => {
     const botMessage = createChatBotMessage(
       "Nice to meet you. You can call me Nines."

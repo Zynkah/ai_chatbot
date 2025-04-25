@@ -5,7 +5,14 @@ const MessageParser = ({ children, actions }) => {
     if (["hello", "hi"].some((word) => message.includes(word))) {
       actions.handleHello();
     }
-    
+
+    if (message.includes("privy")) {
+      actions.handlePrivy();
+    }
+
+    if (message.includes("options")) {
+      actions.handleOptions();
+    }
   };
 
   return (
@@ -13,7 +20,7 @@ const MessageParser = ({ children, actions }) => {
       {React.Children.map(children, (child) => {
         return React.cloneElement(child, {
           parse: parse,
-          actions: {},
+          actions,
         });
       })}
     </div>

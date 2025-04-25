@@ -2,7 +2,7 @@ import { createChatBotMessage } from "react-chatbot-kit";
 import { NineSAvatar } from "./components/avatars/BotAvatar";
 import { MyAvatar } from "./components/avatars/MyAvatar";
 import Overview from "./widgets/Overview";
-import PrivyInfo from "./widgets/Privy";
+import PrivyInfo from "./widgets/PrivyInfo";
 
 const botName = "9S";
 
@@ -23,6 +23,9 @@ const config = {
       widgetName: "overview",
       widgetFunc: (props) => <Overview {...props} />,
       mapStateToProps: ["messages"],
+      props: {
+        actions: {},
+      },
     },
     {
       widgetName: "privyInfo",

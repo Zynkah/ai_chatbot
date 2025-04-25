@@ -1,0 +1,14 @@
+.optionsHeader {
+  color: black;
+  font-size: 18px;
+}
+
+.optionsNameContainer {
+  margin: 5px;
+  padding: 10px;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

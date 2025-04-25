@@ -1,11 +1,11 @@
 import Options from "./Options";
 
 const GeneralOptions = (props) => {
-
   const options = [
     {
       name: "What is Privy?",
       handler: props.actionProvider.handlePrivy,
+
       id: 1,
     },
   ];
