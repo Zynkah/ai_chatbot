@@ -17,6 +17,10 @@ const MessageParser = ({ children, actions }) => {
     if (message.includes("options")) {
       actions.handleOptions();
     }
+
+    if (message.includes('minimum')) {
+      actions.handleMinimumAmount();
+    }
   };
 
   return (

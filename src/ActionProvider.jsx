@@ -62,7 +62,24 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
         ...prev,
         messages: [...prev.messages, botMessage],
       }));
-    };
+  };
+  
+      const handleMinimumAmount = () => {
+        const botMessage = createChatBotMessage(
+          "What is the minimum amount of FARE to play:",
+          {
+            widget: "minAmount",
+            loading: true,
+            terminateLoading: true,
+            withAvatar: true,
+          }
+        );
+
+        setState((prev) => ({
+          ...prev,
+          messages: [...prev.messages, botMessage],
+        }));
+      };
 
   return (
     <div>
@@ -73,6 +90,7 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
             handleOptions,
             handlePrivy,
             handleFindWallet,
+            handleMinimumAmount,
           },
         });
       })}

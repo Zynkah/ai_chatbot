@@ -4,6 +4,7 @@ import { MyAvatar } from "./components/avatars/MyAvatar";
 import Overview from "./widgets/Overview";
 import PrivyInfo from "./widgets/PrivyInfo";
 import FindWallet from "./widgets/FindWallet";
+import MinimumAmount from "./widgets/MinimumAmount";
 
 const botName = "9S";
 
@@ -33,9 +34,13 @@ const config = {
       widgetFunc: () => <PrivyInfo />,
     },
     {
-      widgetName: 'findWallet',
-      widgetFunc: () => <FindWallet />
-    }
+      widgetName: "findWallet",
+      widgetFunc: () => <FindWallet />,
+    },
+    {
+      widgetName: "minAmount",
+      widgetFunc: () => <MinimumAmount />,
+    },
   ],
   botName: botName,
   customComponents: {
