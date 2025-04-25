@@ -5,11 +5,14 @@ const GeneralOptions = (props) => {
     {
       name: "What is Privy?",
       handler: props.actionProvider.handlePrivy,
-
       id: 1,
     },
+    {
+      name: "How do I find my wallet?",
+      handler: props.actionProvider.handleFindWallet,
+      id: 2
+    }
   ];
-  console.log(options);
   return <Options options={options} title="Options" {...props} />;
 };
 

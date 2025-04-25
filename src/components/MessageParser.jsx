@@ -10,6 +10,10 @@ const MessageParser = ({ children, actions }) => {
       actions.handlePrivy();
     }
 
+    if (message.includes("wallet")) {
+      actions.handleFindWallet();
+    }
+
     if (message.includes("options")) {
       actions.handleOptions();
     }

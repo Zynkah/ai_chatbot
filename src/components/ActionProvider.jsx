@@ -47,6 +47,23 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
     }));
   };
 
+    const handleFindWallet = () => {
+      const botMessage = createChatBotMessage(
+        "Here is how you find your wallet in Privy:",
+        {
+          widget: "findWallet",
+          loading: true,
+          terminateLoading: true,
+          withAvatar: true,
+        }
+      );
+
+      setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, botMessage],
+      }));
+    };
+
   return (
     <div>
       {React.Children.map(children, (child) => {
@@ -55,6 +72,7 @@ export const ActionProvider = ({ createChatBotMessage, setState, children }) => 
             handleHello,
             handleOptions,
             handlePrivy,
+            handleFindWallet,
           },
         });
       })}

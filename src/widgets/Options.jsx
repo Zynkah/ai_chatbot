@@ -7,13 +7,13 @@ const Options = (props) => {
       <div>
         {props.options.map((option) => {
             return (
-              <button
+              <div
                 className="optionsNameContainer"
                 onClick={option.handler}
                 key={option.id}
               >
                 {option.name}
-              </button>
+              </div>
             );
         })}
       </div>
