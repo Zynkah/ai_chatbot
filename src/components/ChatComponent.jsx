@@ -1,6 +1,6 @@
 import config from "../config.jsx";
-import MessageParser from "./MessageParser.jsx";
-import ActionProvider from "./ActionProvider.jsx";
+import MessageParser from "../MessageParser.jsx";
+import ActionProvider from "../ActionProvider.jsx";
 import Chatbot from "react-chatbot-kit";
 import "react-chatbot-kit/build/main.css";
 import { useState } from "react";
