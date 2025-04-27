@@ -33,7 +33,7 @@ const MessageParser = ({ children, actions }) => {
     if (message.includes('fees')) {
       actions.handleAssociatedFees();
     }
-       if (message.includes("information")) {
+       if (message.includes("info")) {
          actions.handleMoreInfo();
        }
   };

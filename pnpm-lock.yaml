@@ -11,6 +11,9 @@ importers:
       react:
         specifier: ^19.0.0
         version: 19.1.0
+      react-chatbot-kit:
+        specifier: ^2.2.2
+        version: 2.2.2
       react-dom:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.0)
@@ -815,6 +818,12 @@ packages:
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
+
+  react-chatbot-kit@2.2.2:
+    resolution: {integrity: sha512-8p/i0KkzkhoyG2XsL6Pb6f72k9j7GYNAc5SOa4f9OZwbCD3Q34uEruNPc06qa1wZHKfT6aFna19PA2plFuO2NA==}
+
+  react-conditionally-render@1.0.2:
+    resolution: {integrity: sha512-CtjIgaLHVDSgHis3gv/PT/8EnD6GPUL8PrhUjh7DP6S5Y3p56dGu7y2nVg6pYv1kv+fGznRhRmX3assr/vRw3A==}
 
   react-dom@19.1.0:
     resolution: {integrity: sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==}
@@ -1628,6 +1637,12 @@ snapshots:
   prelude-ls@1.2.1: {}
 
   punycode@2.3.1: {}
+
+  react-chatbot-kit@2.2.2:
+    dependencies:
+      react-conditionally-render: 1.0.2
+
+  react-conditionally-render@1.0.2: {}
 
   react-dom@19.1.0(react@19.1.0):
     dependencies:
