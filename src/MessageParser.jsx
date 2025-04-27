@@ -18,24 +18,24 @@ const MessageParser = ({ children, actions }) => {
       actions.handleOptions();
     }
 
-    if (message.includes('minimum')) {
+    if (message.includes("minimum")) {
       actions.handleMinimumAmount();
     }
 
-    if (message.includes('trouble')) {
+    if (message.includes("trouble")) {
       actions.handleTroubleFunding();
     }
 
-    if (message.includes('network')) {
+    if (message.includes("network")) {
       actions.handleSupportedNetworks();
     }
 
-    if (message.includes('fees')) {
+    if (message.includes("fees")) {
       actions.handleAssociatedFees();
     }
-       if (message.includes("info")) {
-         actions.handleMoreInfo();
-       }
+    if (message.includes("info")) {
+      actions.handleMoreInfo();
+    }
   };
 
   return (
