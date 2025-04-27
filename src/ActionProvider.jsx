@@ -135,6 +135,23 @@ export const ActionProvider = ({
     }));
   };
 
+  const handleMoreInfo = () => {
+    const botMessage = createChatBotMessage(
+      "More information:",
+      {
+        widget: "moreInfo",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true,
+      }
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
   return (
     <div>
       {React.Children.map(children, (child) => {
@@ -148,6 +165,7 @@ export const ActionProvider = ({
             handleTroubleFunding,
             handleSupportedNetworks,
             handleAssociatedFees,
+            handleMoreInfo,
           },
         });
       })}

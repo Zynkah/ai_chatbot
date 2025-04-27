@@ -8,6 +8,7 @@ import MinimumAmount from "./widgets/MinimumAmount";
 import TroubleFunding from "./widgets/TroubleFunding";
 import { SupportedNetworks } from "./widgets/SupportedNetworks";
 import AssociatedFees from "./widgets/AssociatedFees";
+import { MoreInfo } from "./widgets/MoreInfo";
 
 const botName = "9S";
 
@@ -55,6 +56,10 @@ const config = {
     {
       widgetName: "associatedFees",
       widgetFunc: () => <AssociatedFees />,
+    },
+    {
+      widgetName: "moreInfo",
+      widgetFunc: () => <MoreInfo />,
     },
   ],
   botName: botName,
