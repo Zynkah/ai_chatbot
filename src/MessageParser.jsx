@@ -29,6 +29,10 @@ const MessageParser = ({ children, actions }) => {
     if (message.includes('network')) {
       actions.handleSupportedNetworks();
     }
+
+    if (message.includes('fees')) {
+      actions.handleAssociatedFees();
+    }
   };
 
   return (

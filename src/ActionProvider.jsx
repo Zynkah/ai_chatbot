@@ -101,22 +101,39 @@ export const ActionProvider = ({
     }));
   };
 
-    const handleSupportedNetworks = () => {
-      const botMessage = createChatBotMessage(
-        "Which networks does Fareplay support for funding my account:",
-        {
-          widget: "supportedNetworks",
-          loading: true,
-          terminateLoading: true,
-          withAvatar: true,
-        }
-      );
+  const handleSupportedNetworks = () => {
+    const botMessage = createChatBotMessage(
+      "Which networks does Fareplay support for funding my account:",
+      {
+        widget: "supportedNetworks",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true,
+      }
+    );
 
-      setState((prev) => ({
-        ...prev,
-        messages: [...prev.messages, botMessage],
-      }));
-    };
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const handleAssociatedFees = () => {
+    const botMessage = createChatBotMessage(
+      "What fees are associated with using Privy or playing on Fareplay:",
+      {
+        widget: "associatedFees",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true,
+      }
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
 
   return (
     <div>
@@ -130,6 +147,7 @@ export const ActionProvider = ({
             handleMinimumAmount,
             handleTroubleFunding,
             handleSupportedNetworks,
+            handleAssociatedFees,
           },
         });
       })}

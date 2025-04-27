@@ -25,7 +25,12 @@ const GeneralOptions = (props) => {
     {
       name: "Supported Networks?",
       handler: props.actionProvider.handleSupportedNetworks,
-      id: 4,
+      id: 5,
+    },
+    {
+      name: "Are there any fees?",
+      handler: props.actionProvider.handleAssociatedFees,
+      id: 6,
     },
   ];
   return <Options options={options} title="Options" {...props} />;

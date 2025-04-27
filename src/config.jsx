@@ -7,6 +7,7 @@ import FindWallet from "./widgets/FindWallet";
 import MinimumAmount from "./widgets/MinimumAmount";
 import TroubleFunding from "./widgets/TroubleFunding";
 import { SupportedNetworks } from "./widgets/SupportedNetworks";
+import AssociatedFees from "./widgets/AssociatedFees";
 
 const botName = "9S";
 
@@ -50,6 +51,10 @@ const config = {
     {
       widgetName: "supportedNetworks",
       widgetFunc: () => <SupportedNetworks />,
+    },
+    {
+      widgetName: "associatedFees",
+      widgetFunc: () => <AssociatedFees />,
     },
   ],
   botName: botName,
