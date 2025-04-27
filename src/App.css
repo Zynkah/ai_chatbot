@@ -5,3 +5,115 @@
   text-align: center;
 }
 
+.bot-btn{
+  display: flex;
+  margin: 16px auto;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+}
+
+/* .react-chatbot-kit-chat-container {
+  border: 1px solid white;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  border: 2px solid blue;
+}
+
+.react-chatbot-kit-chat-header {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-input-container {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-message-container {
+    border: 1px solid red;
+} */
+
+.react-chatbot-kit-chat-input {
+  background-color: black;
+  height: 18px;
+  border-top: none !important;
+}
+
+.react-chatbot-kit-chat-input-form {
+  background-color: black;
+}
+
+.react-chatbot-kit-chat-input::placeholder {
+  background-color: black;
+  color: white;
+
+  /* border: 1px solid red; */
+}
+
+/* .react-chatbot-kit-chat-btn-send {
+border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-btn-send-icon {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-bot-message-container {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-bot-avatar-container {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-bot-avatar-icon {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-bot-avatar-letter {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-bot-message {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-bot-message-arrow {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-chat-bot-loading-icon-container {
+  border: 1px solid red;
+} */
+
+/* .chatbot-loader-container {
+  border: 1px solid red;
+} */
+
+/* #chatbot-loader #chatbot-loader-dot1 {
+  border: 1px solid red;
+} */
+
+/* #chatbot-loader #chatbot-loader-dot2 {
+  border: 1px solid red;
+} */
+
+/* #chatbot-loader #chatbot-loader-dot3 {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-error {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-error-container {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-error-header {
+  border: 1px solid red;
+} */
+
+/* .react-chatbot-kit-error-docs {
+  border: 1px solid red;
+} */

@@ -8,7 +8,7 @@ import { useState } from "react";
 export const ChatComponent = () => {
   const [showBot, toggleBot] = useState(false);
 
-  const saveMessages = (messages, HTMLString) => {
+  const saveMessages = (messages) => {
     localStorage.setItem("chat_messages", JSON.stringify(messages));
   };
 
@@ -28,7 +28,9 @@ export const ChatComponent = () => {
           saveMessages={saveMessages}
         />
       )}
-      <button onClick={() => toggleBot((prev) => !prev)}>Bot</button>
+      <button className="bot-btn" onClick={() => toggleBot((prev) => !prev)}>
+        {showBot ? "Withdrawal 9S" : "Deploy 9S"}
+      </button>
     </div>
   );
 };
