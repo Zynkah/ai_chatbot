@@ -1,6 +1,6 @@
 import { createChatBotMessage } from "react-chatbot-kit";
-import { NineSAvatar } from "./components/avatars/BotAvatar";
-import { MyAvatar } from "./components/avatars/MyAvatar";
+import { NineSAvatar } from "./components/Avatars/BotAvatar";
+import { MyAvatar } from "./components/Avatars/MyAvatar";
 import Overview from "./widgets/Overview";
 import PrivyInfo from "./widgets/PrivyInfo";
 import FindWallet from "./widgets/FindWallet";
