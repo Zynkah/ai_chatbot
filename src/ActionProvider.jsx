@@ -32,7 +32,22 @@ export const ActionProvider = ({
       messages: [...prev.messages, botMessage],
     }));
   };
+  const handleFareplay = () => {
+    const botMessage = createChatBotMessage(
+      "Here is what you need to know about Fareplay:",
+      {
+        widget: "fareplayInfo",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true,
+      }
+    );
 
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
   const handlePrivy = () => {
     const botMessage = createChatBotMessage(
       "Here is what you need to know about Privy:",
@@ -159,6 +174,7 @@ export const ActionProvider = ({
           actions: {
             handleHello,
             handleOptions,
+            handleFareplay,
             handlePrivy,
             handleFindWallet,
             handleMinimumAmount,

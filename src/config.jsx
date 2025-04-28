@@ -2,6 +2,7 @@ import { createChatBotMessage } from "react-chatbot-kit";
 import { NineSAvatar } from "./components/avatars/BotAvatar";
 import { MyAvatar } from "./components/avatars/MyAvatar";
 import Overview from "./widgets/Overview";
+import FareplayInfo from "./widgets/FareplayInfo";
 import PrivyInfo from "./widgets/PrivyInfo";
 import FindWallet from "./widgets/FindWallet";
 import MinimumAmount from "./widgets/MinimumAmount";
@@ -32,6 +33,10 @@ const config = {
       props: {
         actions: {},
       },
+    },
+    {
+      widgetName: "fareplayInfo",
+      widgetFunc: () => <FareplayInfo />,
     },
     {
       widgetName: "privyInfo",
@@ -71,7 +76,7 @@ const config = {
           padding: "10px",
           borderTopLeftRadius: "3px",
           borderTopRightRadius: "3px",
-          borderBottom: '2px solid black'
+          borderBottom: "2px solid black",
         }}
       >
         Conversation with 9S

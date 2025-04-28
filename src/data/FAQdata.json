@@ -8,30 +8,10 @@
           {
             "list_item": "Smart Contract Gaming: Every game operates through transparent, audited smart contracts",
             "list_item_2": "No House Advantage: Unlike traditional casinos, we don't maintain a treasury or hold player funds",
-            "list_item_3": [
-              {
-                "title": "Innovative Tokenomics: Our FARE token system:",
-                "bullet_item": "Mints tokens when players win",
-                "bullet_item_2": "Burns tokens when players lose",
-                "bullet_item_3": "Creates a naturally deflationary economy"
-              }
-            ],
-            "list_item_4": [
-              {
-                "title": "Fair Play Guarantee:",
-                "bullet_item": "All randomness is verified by Chainlink",
-                "bullet_item_2": "Complete transparency in odds and outcomes",
-                "bullet_item_3": "No hidden fees or manipulated results"
-              }
-            ],
-            "list_item_5": [
-              {
-                "title": "Community Focused:",
-                "bullet_item": "Anyone can become a casino host",
-                "bullet_item_2": "Players maintain full control of their funds",
-                "bullet_item_3": "Regular updates and new games based on community feedback"
-              }
-            ]
+            "list_item_3": "Innovative Tokenomics: Our FARE token system: Mints tokens when players win. Burns tokens when players lose.Creates a naturally deflationary economy.",
+            "list_item_4": "Fair Play Guarantee:All randomness is verified by Chainlink.Complete transparency in odds and outcomes.No hidden fees or manipulated results",
+
+            "list_item_5": "Community Focused: Anyone can become a casino host. Players maintain full control of their funds. Regular updates and new games based on community feedback"
           }
         ],
         "bottom_info": "Fareplay combines the excitement of casino gaming with the security and transparency of blockchain technology."
