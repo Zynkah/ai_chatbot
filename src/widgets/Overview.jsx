@@ -23,7 +23,7 @@ const GeneralOptions = (props) => {
       id: 4,
     },
     {
-      name: "How do I fund my wallet?",
+      name: "How do I find my wallet?",
       handler: props.actionProvider.handleFindWallet,
       id: 5,
     },
@@ -35,6 +35,11 @@ const GeneralOptions = (props) => {
     {
       name: "Minimum to play?",
       handler: props.actionProvider.handleMinimumAmount,
+      id: 7,
+    },
+    {
+      name: "Where to buy FARE?",
+      handler: props.actionProvider.handleBuyFare,
       id: 7,
     },
     {

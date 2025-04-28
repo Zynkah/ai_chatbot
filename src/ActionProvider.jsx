@@ -66,23 +66,19 @@ export const ActionProvider = ({
     }));
   };
 
-    const handleWhyPrivy = () => {
-      const botMessage = createChatBotMessage(
-        "Here is why we use Privy:",
-        {
-          widget: "whyPrivy",
-          loading: true,
-          terminateLoading: true,
-          withAvatar: true,
-        }
-      );
+  const handleWhyPrivy = () => {
+    const botMessage = createChatBotMessage("Here is why we use Privy:", {
+      widget: "whyPrivy",
+      loading: true,
+      terminateLoading: true,
+      withAvatar: true,
+    });
 
-      setState((prev) => ({
-        ...prev,
-        messages: [...prev.messages, botMessage],
-      }));
-    };
-
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
 
   const handleFindWallet = () => {
     const botMessage = createChatBotMessage(
@@ -111,6 +107,20 @@ export const ActionProvider = ({
         withAvatar: true,
       }
     );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const handleBuyFare = () => {
+    const botMessage = createChatBotMessage("Where can I buy FARE tokens:", {
+      widget: "buyFare",
+      loading: true,
+      terminateLoading: true,
+      withAvatar: true,
+    });
 
     setState((prev) => ({
       ...prev,
@@ -170,15 +180,12 @@ export const ActionProvider = ({
   };
 
   const handleMoreInfo = () => {
-    const botMessage = createChatBotMessage(
-      "More information:",
-      {
-        widget: "moreInfo",
-        loading: true,
-        terminateLoading: true,
-        withAvatar: true,
-      }
-    );
+    const botMessage = createChatBotMessage("More information:", {
+      widget: "moreInfo",
+      loading: true,
+      terminateLoading: true,
+      withAvatar: true,
+    });
 
     setState((prev) => ({
       ...prev,
@@ -198,6 +205,7 @@ export const ActionProvider = ({
             handleWhyPrivy,
             handleFindWallet,
             handleMinimumAmount,
+            handleBuyFare,
             handleTroubleFunding,
             handleSupportedNetworks,
             handleAssociatedFees,

@@ -1,15 +1,16 @@
 .answerWrapper {
-    padding: 0px 10px;
-    border: 1px solid #d900d5;
-    border-radius: 5px;
-    color: white;
+  padding: 0px 10px;
+  border: 1px solid #d900d5;
+  border-radius: 5px;
+  color: white;
 
-    & ol {
-       padding-inline-start: 20px;
-    }
+  & ol {
+    padding-inline-start: 20px;
+    overflow-wrap: break-word;
+  }
 
-    & li{
+  & li {
     text-align: left;
     text-wrap: balance;
-    }
+  }
 }

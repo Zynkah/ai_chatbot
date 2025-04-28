@@ -11,6 +11,7 @@ import TroubleFunding from "./widgets/TroubleFunding";
 import { SupportedNetworks } from "./widgets/SupportedNetworks";
 import AssociatedFees from "./widgets/AssociatedFees";
 import { MoreInfo } from "./widgets/MoreInfo";
+import BuyFare from "./widgets/BuyFare";
 
 const botName = "9S";
 
@@ -54,6 +55,10 @@ const config = {
     {
       widgetName: "minAmount",
       widgetFunc: () => <MinimumAmount />,
+    },
+    {
+      widgetName: "buyFare",
+      widgetFunc: () => <BuyFare />,
     },
     {
       widgetName: "troubleFunding",

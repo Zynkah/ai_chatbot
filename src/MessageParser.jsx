@@ -29,6 +29,10 @@ const MessageParser = ({ children, actions }) => {
       actions.handleMinimumAmount();
     }
 
+    if (message.includes("buy")) {
+      actions.handleBuyFare();
+    }
+
     if (message.includes("trouble")) {
       actions.handleTroubleFunding();
     }
