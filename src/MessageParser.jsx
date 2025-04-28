@@ -33,6 +33,10 @@ const MessageParser = ({ children, actions }) => {
       actions.handleBuyFare();
     }
 
+    if (message.includes("withdraw")) {
+      actions.handleWithdraw();
+    }
+
     if (message.includes("trouble")) {
       actions.handleTroubleFunding();
     }

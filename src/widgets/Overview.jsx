@@ -40,17 +40,22 @@ const GeneralOptions = (props) => {
     {
       name: "Where to buy FARE?",
       handler: props.actionProvider.handleBuyFare,
-      id: 7,
+      id: 8,
+    },
+      {
+      name: "How to withdraw winnings?",
+      handler: props.actionProvider.handleWithdraw,
+      id: 9,
     },
     {
       name: "Trouble funding account?",
       handler: props.actionProvider.handleTroubleFunding,
-      id: 8,
-    },
+      id: 10,
+    }, 
     {
       name: "More Information",
       handler: props.actionProvider.handleMoreInfo,
-      id: 9,
+      id: 11,
     },
   ];
   return <Options options={options} title="Options" {...props} />;

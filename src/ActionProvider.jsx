@@ -128,6 +128,23 @@ export const ActionProvider = ({
     }));
   };
 
+  const handleWithdraw = () => {
+    const botMessage = createChatBotMessage(
+      "How do I withdraw my winnings from Fareplay:",
+      {
+        widget: "withdraw",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true,
+      }
+    );
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
   const handleTroubleFunding = () => {
     const botMessage = createChatBotMessage(
       "If you have trouble funding your account:",
@@ -203,12 +220,13 @@ export const ActionProvider = ({
             handleFareplay,
             handlePrivy,
             handleWhyPrivy,
+            handleSupportedNetworks,
             handleFindWallet,
+            handleAssociatedFees,
             handleMinimumAmount,
             handleBuyFare,
+            handleWithdraw,
             handleTroubleFunding,
-            handleSupportedNetworks,
-            handleAssociatedFees,
             handleMoreInfo,
           },
         });

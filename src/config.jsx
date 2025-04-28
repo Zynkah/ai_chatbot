@@ -12,6 +12,7 @@ import { SupportedNetworks } from "./widgets/SupportedNetworks";
 import AssociatedFees from "./widgets/AssociatedFees";
 import { MoreInfo } from "./widgets/MoreInfo";
 import BuyFare from "./widgets/BuyFare";
+import Withdraw from "./widgets/Withdraw";
 
 const botName = "9S";
 
@@ -48,9 +49,17 @@ const config = {
       widgetName: "whyPrivy",
       widgetFunc: () => <WhyPrivy />,
     },
+      {
+      widgetName: "supportedNetworks",
+      widgetFunc: () => <SupportedNetworks />,
+    },
     {
       widgetName: "findWallet",
       widgetFunc: () => <FindWallet />,
+    },
+    {
+      widgetName: "associatedFees",
+      widgetFunc: () => <AssociatedFees />,
     },
     {
       widgetName: "minAmount",
@@ -60,17 +69,13 @@ const config = {
       widgetName: "buyFare",
       widgetFunc: () => <BuyFare />,
     },
+       {
+      widgetName: "withdraw",
+      widgetFunc: () => <Withdraw />,
+    },
     {
       widgetName: "troubleFunding",
       widgetFunc: () => <TroubleFunding />,
-    },
-    {
-      widgetName: "supportedNetworks",
-      widgetFunc: () => <SupportedNetworks />,
-    },
-    {
-      widgetName: "associatedFees",
-      widgetFunc: () => <AssociatedFees />,
     },
     {
       widgetName: "moreInfo",
