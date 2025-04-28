@@ -124,50 +124,11 @@
         "info_2": "Our No-Code Casino Platform allows anyone to:",
         "features": [
           {
-            "list_item": [
-              {
-                "title": "Launch Without Technical Knowledge:",
-                "bullet_item": "Zero coding required",
-                "bullet_item_2": "No blockchain expertise needed",
-                "bullet_item_3": "Instant setup with our drag-and-drop builder",
-                "bullet_item_4": "Custom branding and theme options"
-              }
-            ],
-            "list_item_2": [
-              {
-                "title": "Access Immediate Liquidity:",
-                "bullet_item": "Tap into Fareplay's shared liquidity pool",
-                "bullet_item_2": "No upfront capital requirements",
-                "bullet_item_3": "Instant payouts for your players"
-              }
-            ],
-            "list_item_3": [
-              {
-                "title": "Benefit from Industry-Leading Economics:",
-                "bullet_item": "Lowest deployment costs in the industry",
-                "bullet_item_2": "Minimal operational overhead",
-                "bullet_item_3": "Competitive revenue sharing model",
-                "bullet_item_4": "Built-in player acquisition tools"
-              }
-            ],
-            "list_item_4": [
-              {
-                "title": "Get Started Immediately:",
-                "bullet_item": "Simple social media integration",
-                "bullet_item_2": "Embed games directly in your existing platforms",
-                "bullet_item_3": "Mobile-first design",
-                "bullet_item_4": "Multi-platform support"
-              }
-            ],
-            "list_item_5": [
-              {
-                "title": "Future Expansion Features:",
-                "bullet_item": "Custom game creation tools",
-                "bullet_item_2": "Advanced analytics dashboard",
-                "bullet_item_3": "Player management system",
-                "bullet_item_4": "Marketing automation tools"
-              }
-            ]
+            "list_item": "Launch Without Technical Knowledge: Zero coding required. No blockchain expertise needed. Instant setup with our drag-and-drop builder. Custom branding and theme options.",
+            "list_item_2": "Access Immediate Liquidity: Tap into Fareplay's shared liquidity pool. No upfront capital requirements. Instant payouts for your players.",
+            "list_item_3": "Benefit from Industry-Leading Economics: Lowest deployment costs in the industry. Minimal operational overhead. Competitive revenue sharing model. Built-in player acquisition tools.",
+            "list_item_4": "Get Started Immediately: Simple social media integration. Embed games directly in your existing platforms. Mobile-first design. Multi-platform support.",
+            "list_item_5": "Future Expansion Features: Custom game creation tools. Advanced analytics dashboard. Player management system. Marketing automation tools."
           }
         ]
       }

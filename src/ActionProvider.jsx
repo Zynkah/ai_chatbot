@@ -196,6 +196,23 @@ export const ActionProvider = ({
     }));
   };
 
+    const handleCasino = () => {
+      const botMessage = createChatBotMessage(
+        "How to build your own casino:",
+        {
+          widget: "casino",
+          loading: true,
+          terminateLoading: true,
+          withAvatar: true,
+        }
+      );
+
+      setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, botMessage],
+      }));
+    };
+
   const handleMoreInfo = () => {
     const botMessage = createChatBotMessage("More information:", {
       widget: "moreInfo",
@@ -227,6 +244,7 @@ export const ActionProvider = ({
             handleBuyFare,
             handleWithdraw,
             handleTroubleFunding,
+            handleCasino,
             handleMoreInfo,
           },
         });

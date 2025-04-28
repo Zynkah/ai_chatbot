@@ -42,7 +42,7 @@ const GeneralOptions = (props) => {
       handler: props.actionProvider.handleBuyFare,
       id: 8,
     },
-      {
+    {
       name: "How to withdraw winnings?",
       handler: props.actionProvider.handleWithdraw,
       id: 9,
@@ -51,7 +51,12 @@ const GeneralOptions = (props) => {
       name: "Trouble funding account?",
       handler: props.actionProvider.handleTroubleFunding,
       id: 10,
-    }, 
+    },
+    {
+      name: "Building your Casino?",
+      handler: props.actionProvider.handleCasino,
+      id: 10,
+    },
     {
       name: "More Information",
       handler: props.actionProvider.handleMoreInfo,
