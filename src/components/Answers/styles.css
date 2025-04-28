@@ -11,6 +11,6 @@
 
   & li {
     text-align: left;
-    text-wrap: balance;
+    margin-bottom: 12px;
   }
 }

@@ -9,8 +9,8 @@ export const FareplayInfo = () => {
       listItem={fareplayData.answer.features[0].list_item}
       listItem_2={fareplayData.answer.features[0].list_item_2}
       listItem_3={fareplayData.answer.features[0].list_item_3}
-      listItem_4={fareplayData.answer.features[0].list_item_2}
-      listItem_5={fareplayData.answer.features[0].list_item_2}
+      listItem_4={fareplayData.answer.features[0].list_item_4}
+      listItem_5={fareplayData.answer.features[0].list_item_5}
       bottom_info={fareplayData.answer.bottom_info}
     />
   );

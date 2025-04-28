@@ -6,12 +6,12 @@
         "info": "Fareplay is revolutionizing online gaming by creating the world's first truly decentralized casino platform. Here's what makes us unique:",
         "features": [
           {
-            "list_item": "Smart Contract Gaming: Every game operates through transparent, audited smart contracts",
-            "list_item_2": "No House Advantage: Unlike traditional casinos, we don't maintain a treasury or hold player funds",
-            "list_item_3": "Innovative Tokenomics: Our FARE token system: Mints tokens when players win. Burns tokens when players lose.Creates a naturally deflationary economy.",
-            "list_item_4": "Fair Play Guarantee:All randomness is verified by Chainlink.Complete transparency in odds and outcomes.No hidden fees or manipulated results",
+            "list_item": "Smart Contract Gaming: Every game operates through transparent, audited smart contracts.",
+            "list_item_2": "No House Advantage: Unlike traditional casinos, we don't maintain a treasury or hold player funds.",
+            "list_item_3": "Innovative Tokenomics: Our FARE token system: Mints tokens when players win. Burns tokens when players lose. Creates a naturally deflationary economy.",
+            "list_item_4": "Fair Play Guarantee:All randomness is verified by Chainlink.Complete transparency in odds and outcomes. No hidden fees or manipulated results.",
 
-            "list_item_5": "Community Focused: Anyone can become a casino host. Players maintain full control of their funds. Regular updates and new games based on community feedback"
+            "list_item_5": "Community Focused: Anyone can become a casino host. Players maintain full control of their funds. Regular updates and new games based on community feedback."
           }
         ],
         "bottom_info": "Fareplay combines the excitement of casino gaming with the security and transparency of blockchain technology."
@@ -31,8 +31,8 @@
         "info": "We chose Privy because it solves the biggest challenge in web3 gaming: complexity. Traditional crypto wallets can be intimidating and risky for new users. With Privy, you get three major benefits:",
         "features": [
           {
-            "list_item": "Simple social login that feels familiar",
-            "list_item_2": "A secure wallet that's automatically created and managed for you",
+            "list_item": "Simple social login that feels familiar.",
+            "list_item_2": "A secure wallet that's automatically created and managed for you.",
             "list_item_3": "Complete ownership of your funds - Fareplay never holds your money, it stays in your Privy wallet that only you control. This approach combines the best of web2 convenience with web3 security, making it easier for anyone to start playing without compromising on safety or control."
           }
         ]
@@ -44,7 +44,7 @@
         "info": "Fareplay exclusively operates on Arbitrum, a layer-2 network known for its fast transactions and low fees. To fund your account, you'll need to send USDC on the Arbitrum network to your Privy wallet address. If you're new to Arbitrum, you can get started in two ways:",
         "features": [
           {
-            "list_item": "Purchase USDC directly through our integrated MoonPay service using your credit card",
+            "list_item": "Purchase USDC directly through our integrated MoonPay service using your credit card.",
             "list_item_2": " Transfer USDC from an exchange that supports Arbitrum withdrawals (like Coinbase or Binance). Remember to always select 'Arbitrum network' when sending funds to avoid any loss of assets."
           }
         ]
@@ -87,7 +87,7 @@
         "features": [
           {
             "list_item": "Visit Uniswap: https://app.uniswap.org/explore/tokens/arbitrum/0xfa4e888d9fbbcf4afa7bf057ecfe59ed04619e62",
-            "list_item_2": "Connect your wallet and ensure you're on the Arbitrum network",
+            "list_item_2": "Connect your wallet and ensure you're on the Arbitrum network.",
             "list_item_3": "The FARE token contract address is: 0xFA4E888d9fBBcF4AfA7BF057ECfe59Ed04619e62",
             "list_item_4": "Swap any supported token (USDC recommended) for FARE."
           }
@@ -101,7 +101,7 @@
         "info": "Withdrawing your winnings is straightforward and fully under your control through your Privy wallet. You have several options:",
         "features": [
           {
-            "list_item": "Send your FARE directly to a supported exchange for conversion to other cryptocurrencies or fiat",
+            "list_item": "Send your FARE directly to a supported exchange for conversion to other cryptocurrencies or fiat.",
             "list_item_2": "Use Uniswap to swap FARE for other tokens on Arbitrum",
             "list_item_3": "Hold your FARE tokens in your Privy wallet for future games or potential appreciation. To withdraw, simply click the 'Withdraw' button in your account dashboard, enter the destination address, and confirm the transaction."
           }

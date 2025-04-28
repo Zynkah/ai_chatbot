@@ -9,7 +9,7 @@ export const BuyFare = () => {
       listItem={buyFareData.answer.features[0].list_item}
       listItem_2={buyFareData.answer.features[0].list_item_2}
       listItem_3={buyFareData.answer.features[0].list_item_3}
-      listItem_4={buyFareData.answer.features[0].list_item_2}
+      listItem_4={buyFareData.answer.features[0].list_item_4}
       bottom_info={buyFareData.answer.bottom_info}
     />
   );

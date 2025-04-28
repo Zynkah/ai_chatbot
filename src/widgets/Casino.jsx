@@ -10,8 +10,8 @@ export const Casino = () => {
       listItem={casinoData.answer.features[0].list_item}
       listItem_2={casinoData.answer.features[0].list_item_2}
       listItem_3={casinoData.answer.features[0].list_item_3}
-      listItem_4={casinoData.answer.features[0].list_item_2}
-      listItem_5={casinoData.answer.features[0].list_item_2}
+      listItem_4={casinoData.answer.features[0].list_item_4}
+      listItem_5={casinoData.answer.features[0].list_item_5}
     />
   );
 };

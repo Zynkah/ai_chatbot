@@ -11,6 +11,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-size: 14px;
+
 }
 
 .bot-btn {
@@ -42,7 +44,7 @@
 .react-chatbot-kit-chat-message-container {
   background-color: #0a0a0a;
   overflow-x: hidden !important;
-  height: 400px !important;
+  height: 404px !important;
   scrollbar-color: #34383f black;
   scrollbar-width: thin;
 }
