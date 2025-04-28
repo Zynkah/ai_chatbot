@@ -13,34 +13,39 @@ const GeneralOptions = (props) => {
       id: 2,
     },
     {
+      name: "Why do we us Privy?",
+      handler: props.actionProvider.handleWhyPrivy,
+      id: 3,
+    },
+    {
       name: "Supported Networks?",
       handler: props.actionProvider.handleSupportedNetworks,
-      id: 3,
+      id: 4,
     },
     {
       name: "How do I fund my wallet?",
       handler: props.actionProvider.handleFindWallet,
-      id: 4,
+      id: 5,
     },
     {
       name: "Are there any fees?",
       handler: props.actionProvider.handleAssociatedFees,
-      id: 5,
+      id: 6,
     },
     {
       name: "Minimum to play?",
       handler: props.actionProvider.handleMinimumAmount,
-      id: 6,
+      id: 7,
     },
     {
       name: "Trouble funding account?",
       handler: props.actionProvider.handleTroubleFunding,
-      id: 7,
+      id: 8,
     },
     {
       name: "More Information",
       handler: props.actionProvider.handleMoreInfo,
-      id: 8,
+      id: 9,
     },
   ];
   return <Options options={options} title="Options" {...props} />;

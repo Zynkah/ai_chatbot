@@ -48,6 +48,7 @@ export const ActionProvider = ({
       messages: [...prev.messages, botMessage],
     }));
   };
+
   const handlePrivy = () => {
     const botMessage = createChatBotMessage(
       "Here is what you need to know about Privy:",
@@ -64,6 +65,24 @@ export const ActionProvider = ({
       messages: [...prev.messages, botMessage],
     }));
   };
+
+    const handleWhyPrivy = () => {
+      const botMessage = createChatBotMessage(
+        "Here is why we use Privy:",
+        {
+          widget: "whyPrivy",
+          loading: true,
+          terminateLoading: true,
+          withAvatar: true,
+        }
+      );
+
+      setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, botMessage],
+      }));
+    };
+
 
   const handleFindWallet = () => {
     const botMessage = createChatBotMessage(
@@ -176,6 +195,7 @@ export const ActionProvider = ({
             handleOptions,
             handleFareplay,
             handlePrivy,
+            handleWhyPrivy,
             handleFindWallet,
             handleMinimumAmount,
             handleTroubleFunding,

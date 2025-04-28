@@ -4,6 +4,7 @@ import { MyAvatar } from "./components/avatars/MyAvatar";
 import Overview from "./widgets/Overview";
 import FareplayInfo from "./widgets/FareplayInfo";
 import PrivyInfo from "./widgets/PrivyInfo";
+import WhyPrivy from "./widgets/WhyPrivy";
 import FindWallet from "./widgets/FindWallet";
 import MinimumAmount from "./widgets/MinimumAmount";
 import TroubleFunding from "./widgets/TroubleFunding";
@@ -41,6 +42,10 @@ const config = {
     {
       widgetName: "privyInfo",
       widgetFunc: () => <PrivyInfo />,
+    },
+    {
+      widgetName: "whyPrivy",
+      widgetFunc: () => <WhyPrivy />,
     },
     {
       widgetName: "findWallet",

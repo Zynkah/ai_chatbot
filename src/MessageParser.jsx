@@ -4,7 +4,6 @@ const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
     if (["hello", "hi"].some((word) => message.includes(word))) {
       actions.handleHello();
-    
     }
     if (message.includes("fareplay")) {
       actions.handleFareplay();
@@ -12,6 +11,10 @@ const MessageParser = ({ children, actions }) => {
 
     if (message.includes("privy")) {
       actions.handlePrivy();
+    }
+
+    if (message.includes("why")) {
+      actions.handleWhyPrivy();
     }
 
     if (message.includes("wallet")) {
