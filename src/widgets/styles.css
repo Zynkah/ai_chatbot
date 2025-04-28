@@ -1,12 +1,12 @@
 .optionsHeader {
-  color: black;
+  color: white;
   font-size: 18px;
 }
 
 .optionsNameContainer {
   margin: 5px;
   padding: 10px;
-  background-color: hotpink;
+  background-color: #d900d5;
   color: white;
   border: none;
   border-radius: 5px;

@@ -67,9 +67,11 @@ const config = {
     header: () => (
       <div
         style={{
-          backgroundColor: "hotpink",
+          backgroundColor: "#d900d5",
           padding: "10px",
-          borderRadius: "3px",
+          borderTopLeftRadius: "3px",
+          borderTopRightRadius: "3px",
+          borderBottom: '2px solid black'
         }}
       >
         Conversation with 9S
@@ -82,10 +84,10 @@ const config = {
   },
   customStyles: {
     botMessageBox: {
-      backgroundColor: "black",
+      backgroundColor: "#000",
     },
     chatButton: {
-      backgroundColor: "hotpink",
+      backgroundColor: "#d900d5",
     },
   },
 };

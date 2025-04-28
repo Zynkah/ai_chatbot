@@ -1,8 +1,8 @@
 .answerWrapper {
     padding: 0px 10px;
-    border: 1px solid hotpink;
+    border: 1px solid #d900d5;
     border-radius: 5px;
-    color: hotpink;
+    color: white;
 
     & ul {
        padding-inline-start: 20px;

@@ -1,3 +1,11 @@
+/* peach: '#ffcd9e',
+  salmon: '#ff5e4f',
+  pink: '#d900d5',
+  blue: '#410dff',
+  aqua: '#4af5d3',
+  gray: '#34383f',
+  black: '#0a0a0a', */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,23 +13,25 @@
   text-align: center;
 }
 
-.bot-btn{
+.bot-btn {
   display: flex;
   margin: 16px auto;
   align-items: center;
   justify-content: center;
   width: 275px;
+  border: 1px solid #d900d5;
+  background-color: #0a0a0a;
 }
 
 /* .react-chatbot-kit-chat-container {
   border: 1px solid white;
-}
+} */
 
-.react-chatbot-kit-chat-inner-container {
+/* .react-chatbot-kit-chat-inner-container {
   border: 2px solid blue;
-}
+} */
 
-.react-chatbot-kit-chat-header {
+/* .react-chatbot-kit-chat-header {
   border: 1px solid red;
 } */
 
@@ -29,9 +39,9 @@
   border: 1px solid red;
 } */
 
-/* .react-chatbot-kit-chat-message-container {
-    border: 1px solid red;
-} */
+.react-chatbot-kit-chat-message-container {
+  background-color: #0a0a0a;
+}
 
 .react-chatbot-kit-chat-input {
   background-color: black;
@@ -41,6 +51,8 @@
 
 .react-chatbot-kit-chat-input-form {
   background-color: black;
+  border-top: 2px solid black;
+
 }
 
 .react-chatbot-kit-chat-input::placeholder {
@@ -74,13 +86,30 @@ border: 1px solid red;
   border: 1px solid red;
 } */
 
-/* .react-chatbot-kit-chat-bot-message {
-  border: 1px solid red;
-} */
 
-/* .react-chatbot-kit-chat-bot-message-arrow {
-  border: 1px solid red;
-} */
+.react-chatbot-kit-user-chat-message {
+  border: 1px solid #ff5e4f;
+}
+
+.react-chatbot-kit-user-chat-message {
+  background-color: black !important;
+  color: white !important;
+}
+
+.react-chatbot-kit-user-chat-message-arrow {
+  border-left-color: #ff5e4f !important;
+  right: -8px !important;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  border: 1px solid #d900d5;
+  background-color: black !important;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right-color: #d900d5 !important;
+  left: -8px !important;
+}
 
 /* .react-chatbot-kit-chat-bot-loading-icon-container {
   border: 1px solid red;
