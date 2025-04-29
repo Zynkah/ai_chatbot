@@ -15,6 +15,7 @@ import BuyFare from "./widgets/BuyFare";
 import Withdraw from "./widgets/Withdraw";
 import Casino from "./widgets/Casino";
 import AskAnother from "./widgets/AskAnother";
+import GeneralFareplay from "./widgets/GeneralQuestionWidgets/Fareplay";
 
 const botName = "9S";
 
@@ -47,6 +48,10 @@ const config = {
       props: {
         actions: {},
       },
+    },
+    {
+      widgetName: "generalFareplay",
+      widgetFunc: withAskAnother(GeneralFareplay),
     },
     { widgetName: "fareplayInfo", widgetFunc: withAskAnother(FareplayInfo) },
     { widgetName: "privyInfo", widgetFunc: withAskAnother(PrivyInfo) },

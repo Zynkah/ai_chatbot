@@ -45,6 +45,11 @@ export const ActionProvider = ({
         messages: [...prev.messages, botMessage],
       }));
     },
+    handleGeneralFareplay: () =>
+      createMessage(
+        "Here are some Fareplay-related questions:",
+        "generalFareplay"
+      ),
     handleFareplay: () =>
       createMessage(
         "Here is what you need to know about Fareplay:",
@@ -80,7 +85,7 @@ export const ActionProvider = ({
     handleCasino: () =>
       createMessage("How to build your own casino:", "casino"),
     handleMoreInfo: () => createMessage("More information:", "moreInfo"),
-    handleAskAnother: () => createMessage('', 'askAnother')
+    handleAskAnother: () => createMessage("", "askAnother"),
   };
 
   return (
