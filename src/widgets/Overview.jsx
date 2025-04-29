@@ -17,18 +17,11 @@ const GeneralOptions = (props) => {
       handler: props.actionProvider.handleGeneralFunding,
       id: 3,
     },
-
     {
-      name: "Are there any fees?",
-      handler: props.actionProvider.handleAssociatedFees,
-      id: 9,
+      name: "Fees",
+      handler: props.actionProvider.handleGeneralFees,
+      id: 4,
     },
-    {
-      name: "Minimum to play?",
-      handler: props.actionProvider.handleMinimumAmount,
-      id: 10,
-    },
-
     {
       name: "More Information",
       handler: props.actionProvider.handleMoreInfo,

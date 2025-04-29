@@ -18,6 +18,7 @@ import AskAnother from "./widgets/AskAnother";
 import GeneralFareplay from "./widgets/GeneralQuestionWidgets/Fareplay";
 import GeneralPrivy from "./widgets/GeneralQuestionWidgets/Privy";
 import GeneralFunding from "./widgets/GeneralQuestionWidgets/Funding";
+import GeneralFees from "./widgets/GeneralQuestionWidgets/Fees";
 
 const botName = "9S";
 
@@ -62,6 +63,10 @@ const config = {
     {
       widgetName: "generalFunding",
       widgetFunc: withAskAnother(GeneralFunding),
+    },
+    {
+      widgetName: "generalFees",
+      widgetFunc: withAskAnother(GeneralFees),
     },
     { widgetName: "fareplayInfo", widgetFunc: withAskAnother(FareplayInfo) },
     { widgetName: "privyInfo", widgetFunc: withAskAnother(PrivyInfo) },
