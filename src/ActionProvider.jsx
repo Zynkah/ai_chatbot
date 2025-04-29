@@ -51,10 +51,9 @@ export const ActionProvider = ({
         "generalFareplay"
       ),
     handleGeneralPrivy: () =>
-      createMessage(
-        "Here are some Privy-related questions:",
-        "generalPrivy"
-      ),
+      createMessage("Here are some Privy-related questions:", "generalPrivy"),
+    handleGeneralFunding: () =>
+      createMessage("Here are some funding-related questions:", "generalFunding"),
     handleFareplay: () =>
       createMessage(
         "Here is what you need to know about Fareplay:",

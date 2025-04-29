@@ -3,20 +3,19 @@ import Options from "./Options";
 const GeneralOptions = (props) => {
   const options = [
     {
-      name: "Fareplay Questions?",
+      name: "Fareplay",
       handler: props.actionProvider.handleGeneralFareplay,
       id: 1,
     },
     {
-      name: "Privy Questions?",
+      name: "Privy",
       handler: props.actionProvider.handleGeneralPrivy,
       id: 2,
     },
-
     {
-      name: "Supported Networks?",
-      handler: props.actionProvider.handleSupportedNetworks,
-      id: 7,
+      name: "Funding",
+      handler: props.actionProvider.handleGeneralFunding,
+      id: 3,
     },
 
     {
@@ -28,17 +27,6 @@ const GeneralOptions = (props) => {
       name: "Minimum to play?",
       handler: props.actionProvider.handleMinimumAmount,
       id: 10,
-    },
-
-    {
-      name: "How to withdraw winnings?",
-      handler: props.actionProvider.handleWithdraw,
-      id: 11,
-    },
-    {
-      name: "Trouble funding account?",
-      handler: props.actionProvider.handleTroubleFunding,
-      id: 12,
     },
 
     {
