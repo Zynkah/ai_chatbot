@@ -50,6 +50,11 @@ export const ActionProvider = ({
         "Here are some Fareplay-related questions:",
         "generalFareplay"
       ),
+    handleGeneralPrivy: () =>
+      createMessage(
+        "Here are some Privy-related questions:",
+        "generalPrivy"
+      ),
     handleFareplay: () =>
       createMessage(
         "Here is what you need to know about Fareplay:",

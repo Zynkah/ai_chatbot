@@ -7,27 +7,18 @@ const GeneralOptions = (props) => {
       handler: props.actionProvider.handleGeneralFareplay,
       id: 1,
     },
+    {
+      name: "Privy Questions?",
+      handler: props.actionProvider.handleGeneralPrivy,
+      id: 2,
+    },
 
-    {
-      name: "What is Privy?",
-      handler: props.actionProvider.handlePrivy,
-      id: 5,
-    },
-    {
-      name: "Why do we us Privy?",
-      handler: props.actionProvider.handleWhyPrivy,
-      id: 6,
-    },
     {
       name: "Supported Networks?",
       handler: props.actionProvider.handleSupportedNetworks,
       id: 7,
     },
-    {
-      name: "How do I find my wallet?",
-      handler: props.actionProvider.handleFindWallet,
-      id: 8,
-    },
+
     {
       name: "Are there any fees?",
       handler: props.actionProvider.handleAssociatedFees,
