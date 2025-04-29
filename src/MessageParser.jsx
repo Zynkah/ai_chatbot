@@ -1,71 +1,42 @@
 import React from "react";
 
 const MessageParser = ({ children, actions }) => {
+  const messageHandlers = {
+    hello: actions.handleHello,
+    hi: actions.handleHello,
+    fareplay: actions.handleFareplay,
+    privy: actions.handlePrivy,
+    why: actions.handleWhyPrivy,
+    wallet: actions.handleFindWallet,
+    options: actions.handleOptions,
+    minimum: actions.handleMinimumAmount,
+    buy: actions.handleBuyFare,
+    withdraw: actions.handleWithdraw,
+    trouble: actions.handleTroubleFunding,
+    network: actions.handleSupportedNetworks,
+    fees: actions.handleAssociatedFees,
+    casino: actions.handleCasino,
+    info: actions.handleMoreInfo,
+  };
+
   const parse = (message) => {
-    if (["hello", "hi"].some((word) => message.includes(word))) {
-      actions.handleHello();
-    }
-    if (message.includes("fareplay")) {
-      actions.handleFareplay();
-    }
+    const lowercaseMessage = message.toLowerCase();
 
-    if (message.includes("privy")) {
-      actions.handlePrivy();
-    }
-
-    if (message.includes("why")) {
-      actions.handleWhyPrivy();
-    }
-
-    if (message.includes("wallet")) {
-      actions.handleFindWallet();
-    }
-
-    if (message.includes("options")) {
-      actions.handleOptions();
-    }
-
-    if (message.includes("minimum")) {
-      actions.handleMinimumAmount();
-    }
-
-    if (message.includes("buy")) {
-      actions.handleBuyFare();
-    }
-
-    if (message.includes("withdraw")) {
-      actions.handleWithdraw();
-    }
-
-    if (message.includes("trouble")) {
-      actions.handleTroubleFunding();
-    }
-
-    if (message.includes("network")) {
-      actions.handleSupportedNetworks();
-    }
-
-    if (message.includes("fees")) {
-      actions.handleAssociatedFees();
-    }
-
-    if (message.includes("casino")) {
-      actions.handleCasino();
-    }
-
-    if (message.includes("info")) {
-      actions.handleMoreInfo();
-    }
+    Object.entries(messageHandlers).forEach(([keyword, handler]) => {
+      if (lowercaseMessage.includes(keyword)) {
+        handler();
+      }
+    });
   };
 
   return (
     <div>
-      {React.Children.map(children, (child) => {
-        return React.cloneElement(child, {
-          parse: parse,
+      {React.Children.map(children, (child) =>
+        React.cloneElement(child, {
+          parse,
           actions,
-        });
-      })}
+        })
+      )}
     </div>
   );
 };
