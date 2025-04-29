@@ -14,8 +14,18 @@ import { MoreInfo } from "./widgets/MoreInfo";
 import BuyFare from "./widgets/BuyFare";
 import Withdraw from "./widgets/Withdraw";
 import Casino from "./widgets/Casino";
+import AskAnother from "./widgets/AskAnother";
 
 const botName = "9S";
+
+const withAskAnother = (Widget) => (props) => {
+  return (
+    <>
+      {Widget && <Widget {...props} />}
+      <AskAnother {...props} />
+    </>
+  );
+};
 
 const config = {
   initialMessages: [
@@ -38,54 +48,27 @@ const config = {
         actions: {},
       },
     },
-    {
-      widgetName: "fareplayInfo",
-      widgetFunc: () => <FareplayInfo />,
-    },
-    {
-      widgetName: "privyInfo",
-      widgetFunc: () => <PrivyInfo />,
-    },
-    {
-      widgetName: "whyPrivy",
-      widgetFunc: () => <WhyPrivy />,
-    },
+    { widgetName: "fareplayInfo", widgetFunc: withAskAnother(FareplayInfo) },
+    { widgetName: "privyInfo", widgetFunc: withAskAnother(PrivyInfo) },
+    { widgetName: "whyPrivy", widgetFunc: withAskAnother(WhyPrivy) },
     {
       widgetName: "supportedNetworks",
-      widgetFunc: () => <SupportedNetworks />,
+      widgetFunc: withAskAnother(SupportedNetworks),
     },
-    {
-      widgetName: "findWallet",
-      widgetFunc: () => <FindWallet />,
-    },
+    { widgetName: "findWallet", widgetFunc: withAskAnother(FindWallet) },
     {
       widgetName: "associatedFees",
-      widgetFunc: () => <AssociatedFees />,
+      widgetFunc: withAskAnother(AssociatedFees),
     },
-    {
-      widgetName: "minAmount",
-      widgetFunc: () => <MinimumAmount />,
-    },
-    {
-      widgetName: "buyFare",
-      widgetFunc: () => <BuyFare />,
-    },
-    {
-      widgetName: "withdraw",
-      widgetFunc: () => <Withdraw />,
-    },
+    { widgetName: "minAmount", widgetFunc: withAskAnother(MinimumAmount) },
+    { widgetName: "buyFare", widgetFunc: withAskAnother(BuyFare) },
+    { widgetName: "withdraw", widgetFunc: withAskAnother(Withdraw) },
     {
       widgetName: "troubleFunding",
-      widgetFunc: () => <TroubleFunding />,
+      widgetFunc: withAskAnother(TroubleFunding),
     },
-    {
-      widgetName: "casino",
-      widgetFunc: () => <Casino />,
-    },
-    {
-      widgetName: "moreInfo",
-      widgetFunc: () => <MoreInfo />,
-    },
+    { widgetName: "casino", widgetFunc: withAskAnother(Casino) },
+    { widgetName: "moreInfo", widgetFunc: (props) => <MoreInfo {...props} /> },
   ],
   botName: botName,
   customComponents: {

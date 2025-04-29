@@ -39,6 +39,7 @@ export const ActionProvider = ({
           ...options,
         }
       );
+
       setState((prev) => ({
         ...prev,
         messages: [...prev.messages, botMessage],
@@ -79,6 +80,7 @@ export const ActionProvider = ({
     handleCasino: () =>
       createMessage("How to build your own casino:", "casino"),
     handleMoreInfo: () => createMessage("More information:", "moreInfo"),
+    handleAskAnother: () => createMessage('', 'askAnother')
   };
 
   return (

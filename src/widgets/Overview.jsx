@@ -55,12 +55,12 @@ const GeneralOptions = (props) => {
     {
       name: "Building your Casino?",
       handler: props.actionProvider.handleCasino,
-      id: 10,
+      id: 11,
     },
     {
       name: "More Information",
       handler: props.actionProvider.handleMoreInfo,
-      id: 11,
+      id: 12,
     },
   ];
   return <Options options={options} title="Options" {...props} />;
