@@ -25,7 +25,7 @@ const GeneralOptions = (props) => {
     {
       name: "More Information",
       handler: props.actionProvider.handleMoreInfo,
-      id: 13,
+      id: 5,
     },
   ];
   return <Options options={options} title="Options" {...props} />;
