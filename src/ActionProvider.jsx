@@ -1,4 +1,5 @@
 import React from "react";
+import { getGeminiResponse } from "./components/AI/geminiHelper";
 
 export const ActionProvider = ({
   createChatBotMessage,
@@ -45,6 +46,21 @@ export const ActionProvider = ({
         messages: [...prev.messages, botMessage],
       }));
     },
+    handleGemini: async (userMessage) => {
+      const loadingMsg = createChatBotMessage("Thinking...");
+      setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages, loadingMsg],
+      }));
+
+      const aiResponse = await getGeminiResponse(userMessage);
+      const botMsg = createChatBotMessage(aiResponse);
+
+      setState((prev) => ({
+        ...prev,
+        messages: [...prev.messages.slice(0, -1), botMsg], // replace loading
+      }));
+    },
     handleGeneralFareplay: () =>
       createMessage(
         "Here are some Fareplay-related questions:",
@@ -58,10 +74,7 @@ export const ActionProvider = ({
         "generalFunding"
       ),
     handleGeneralFees: () =>
-      createMessage(
-        "Here are some fees-related questions:",
-        "generalFees"
-      ),
+      createMessage("Here are some fees-related questions:", "generalFees"),
     handleFareplay: () =>
       createMessage(
         "Here is what you need to know about Fareplay:",
