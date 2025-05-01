@@ -25,14 +25,14 @@ const MessageParser = ({ children, actions }) => {
     threshold: 0.4,
   });
 
-  const parse = (message) => {
+  const parse = async (message) => {
     const lowercaseMessage = message.toLowerCase();
     const result = fuse.search(lowercaseMessage);
 
     if (result.length > 0) {
       result[0].item.handler();
     } else {
-      actions.handleGemini(message);
+      await actions.handleGemini(message);
     }
   };
 

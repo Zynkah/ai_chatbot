@@ -1,5 +1,5 @@
 import React from "react";
-import { getGeminiResponse } from "./components/AI/geminiHelper";
+import { getGeminiResponse } from "./components/AI/GeminiHelper";
 
 export const ActionProvider = ({
   createChatBotMessage,
