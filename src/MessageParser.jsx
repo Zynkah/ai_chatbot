@@ -31,6 +31,8 @@ const MessageParser = ({ children, actions }) => {
 
     if (result.length > 0) {
       result[0].item.handler();
+    } else {
+      actions.handleGemini(message);
     }
   };
 
