@@ -9,7 +9,7 @@
             "list_item": "Smart Contract Gaming: Every game operates through transparent, audited smart contracts.",
             "list_item_2": "No House Advantage: Unlike traditional casinos, we don't maintain a treasury or hold player funds.",
             "list_item_3": "Innovative Tokenomics: Our FARE token system: Mints tokens when players win. Burns tokens when players lose. Creates a naturally deflationary economy.",
-            "list_item_4": "Fair Play Guarantee:All randomness is verified by Chainlink.Complete transparency in odds and outcomes. No hidden fees or manipulated results.",
+            "list_item_4": "Fair Play Guarantee: All randomness is verified by Chainlink.Complete transparency in odds and outcomes. No hidden fees or manipulated results.",
 
             "list_item_5": "Community Focused: Anyone can become a casino host. Players maintain full control of their funds. Regular updates and new games based on community feedback."
           }
@@ -45,7 +45,7 @@
         "features": [
           {
             "list_item": "Purchase USDC directly through our integrated MoonPay service using your credit card.",
-            "list_item_2": " Transfer USDC from an exchange that supports Arbitrum withdrawals (like Coinbase or Binance). Remember to always select 'Arbitrum network' when sending funds to avoid any loss of assets."
+            "list_item_2": "Transfer USDC from an exchange that supports Arbitrum withdrawals (like Coinbase or Binance). Remember to always select 'Arbitrum network' when sending funds to avoid any loss of assets."
           }
         ]
       }
