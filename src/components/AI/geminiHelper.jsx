@@ -1,3 +1,5 @@
+// FOR LOCAL TESTING
+
 // import { GoogleGenAI } from "@google/genai";
 
 // const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
@@ -22,7 +24,6 @@ export async function getGeminiResponse(prompt) {
   }
   try {
     const data = await res.json();
-    console.log("Gemini API raw response:", data);
     return data.candidates?.[0]?.content?.parts?.[0]?.text || "No response";
   } catch {
     return "Sorry, I couldn't understand the AI response.";
