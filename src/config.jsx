@@ -6,19 +6,15 @@ import YoRHaInfo from "./widgets/YoRHaInfo";
 import AndroidInfo from "./widgets/AndroidInfo";
 import ModelTypes from "./widgets/ModelTypes";
 import AndroidBehaviors from "./widgets/AndroidBehaviors";
-import MinimumAmount from "./widgets/MinimumAmount";
-import TroubleFunding from "./widgets/TroubleFunding";
-import { SupportedNetworks } from "./widgets/SupportedNetworks";
-import AssociatedFees from "./widgets/AssociatedFees";
+import { MoralAmbiguity } from "./widgets/MoralAmbiguity";
 import { MoreInfo } from "./widgets/MoreInfo";
 import Purpose from "./widgets/Purpose";
-import Withdraw from "./widgets/Withdraw";
+import EthicalImplications from "./widgets/EthicalImplications";
 import Organization from "./widgets/Organization";
 import AskAnother from "./widgets/AskAnother";
 import GeneralYoRHa from "./widgets/GeneralQuestionWidgets/YoRHa";
 import GeneralAndroids from "./widgets/GeneralQuestionWidgets/Androids";
 import GeneralThemes from "./widgets/GeneralQuestionWidgets/Themes";
-import GeneralFees from "./widgets/GeneralQuestionWidgets/Fees";
 
 const botName = "9S";
 
@@ -64,32 +60,19 @@ const config = {
       widgetName: "generalThemes",
       widgetFunc: withAskAnother(GeneralThemes),
     },
-    {
-      widgetName: "generalFees",
-      widgetFunc: withAskAnother(GeneralFees),
-    },
     { widgetName: "whatIsYoRHa", widgetFunc: withAskAnother(YoRHaInfo) },
     { widgetName: "androidInfo", widgetFunc: withAskAnother(AndroidInfo) },
     { widgetName: "modelTypes", widgetFunc: withAskAnother(ModelTypes) },
     {
-      widgetName: "supportedNetworks",
-      widgetFunc: withAskAnother(SupportedNetworks),
+      widgetName: "moralAmbiguity",
+      widgetFunc: withAskAnother(MoralAmbiguity),
     },
     {
       widgetName: "androidBehaviors",
       widgetFunc: withAskAnother(AndroidBehaviors),
     },
-    {
-      widgetName: "associatedFees",
-      widgetFunc: withAskAnother(AssociatedFees),
-    },
-    { widgetName: "minAmount", widgetFunc: withAskAnother(MinimumAmount) },
     { widgetName: "purpose", widgetFunc: withAskAnother(Purpose) },
-    { widgetName: "withdraw", widgetFunc: withAskAnother(Withdraw) },
-    {
-      widgetName: "troubleFunding",
-      widgetFunc: withAskAnother(TroubleFunding),
-    },
+    { widgetName: "withdraw", widgetFunc: withAskAnother(EthicalImplications) },
     { widgetName: "organization", widgetFunc: withAskAnother(Organization) },
     { widgetName: "moreInfo", widgetFunc: (props) => <MoreInfo {...props} /> },
   ],

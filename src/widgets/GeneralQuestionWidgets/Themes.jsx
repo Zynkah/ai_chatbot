@@ -4,12 +4,12 @@ const GeneralThemes = (props) => {
   const options = [
     {
       name: "Moral Ambiguity?",
-      handler: props.actionProvider.handleSupportedNetworks,
+      handler: props.actionProvider.handleMoralAmbiguity,
       id: 1,
     },
     {
       name: "Ethical Implications?",
-      handler: props.actionProvider.handleWithdraw,
+      handler: props.actionProvider.handleEthicalImplications,
       id: 2,
     },
     {

@@ -1,0 +1,38 @@
+.grid-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.small-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 96px;
+}
+
+.icon-wrapper {
+    position: relative;
+}
+
+.icon-title {
+    position: absolute;
+    left:50%;
+    top:30%;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.icon-wrapper:hover .icon-title {
+    display: block;
+}
+
+img:hover {
+    opacity: 0.5;
+}

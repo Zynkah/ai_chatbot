@@ -18,11 +18,6 @@ const GeneralOptions = (props) => {
       id: 3,
     },
     {
-      name: "Fees",
-      handler: props.actionProvider.handleGeneralFees,
-      id: 4,
-    },
-    {
       name: "More Information",
       handler: props.actionProvider.handleMoreInfo,
       id: 5,

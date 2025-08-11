@@ -70,8 +70,6 @@ export const ActionProvider = ({
         "Here are some funding-related questions:",
         "generalThemes"
       ),
-    handleGeneralFees: () =>
-      createMessage("Here are some fees-related questions:", "generalFees"),
     handleYoRHa: () =>
       createMessage(
         "Here is what you need to know about YoRHa:",
@@ -86,22 +84,17 @@ export const ActionProvider = ({
     handleMinimumAmount: () =>
       createMessage("What is the minimum amount of FARE to play:", "minAmount"),
     handlePurpose: () => createMessage("What is YoRHa's Purpose:", "purpose"),
-    handleWithdraw: () =>
+    handleEthicalImplications: () =>
       createMessage("How do I withdraw my winnings from Fareplay:", "withdraw"),
     handleTroubleFunding: () =>
       createMessage(
         "If you have trouble funding your account:",
         "troubleFunding"
       ),
-    handleSupportedNetworks: () =>
+    handleMoralAmbiguity: () =>
       createMessage(
-        "Which networks does Fareplay support for funding my account:",
-        "supportedNetworks"
-      ),
-    handleAssociatedFees: () =>
-      createMessage(
-        "What fees are associated with using Privy or playing on Fareplay:",
-        "associatedFees"
+        "Moral ambiguity in YoRHa:",
+        "moralAmbiguity"
       ),
     handleOrganization: () =>
       createMessage(
