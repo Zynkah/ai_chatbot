@@ -2,23 +2,19 @@ import { createChatBotMessage } from "react-chatbot-kit";
 import { NineSAvatar } from "./components/avatars/BotAvatar";
 import { MyAvatar } from "./components/avatars/MyAvatar";
 import Overview from "./widgets/Overview";
-import FareplayInfo from "./widgets/FareplayInfo";
-import PrivyInfo from "./widgets/PrivyInfo";
-import WhyPrivy from "./widgets/WhyPrivy";
-import FindWallet from "./widgets/FindWallet";
-import MinimumAmount from "./widgets/MinimumAmount";
-import TroubleFunding from "./widgets/TroubleFunding";
-import { SupportedNetworks } from "./widgets/SupportedNetworks";
-import AssociatedFees from "./widgets/AssociatedFees";
+import YoRHaInfo from "./widgets/YoRHaInfo";
+import AndroidInfo from "./widgets/AndroidInfo";
+import ModelTypes from "./widgets/ModelTypes";
+import AndroidBehaviors from "./widgets/AndroidBehaviors";
+import { MoralAmbiguity } from "./widgets/MoralAmbiguity";
 import { MoreInfo } from "./widgets/MoreInfo";
-import BuyFare from "./widgets/BuyFare";
-import Withdraw from "./widgets/Withdraw";
-import Casino from "./widgets/Casino";
+import Purpose from "./widgets/Purpose";
+import EthicalImplications from "./widgets/EthicalImplications";
+import Organization from "./widgets/Organization";
 import AskAnother from "./widgets/AskAnother";
-import GeneralFareplay from "./widgets/GeneralQuestionWidgets/Fareplay";
-import GeneralPrivy from "./widgets/GeneralQuestionWidgets/Privy";
-import GeneralFunding from "./widgets/GeneralQuestionWidgets/Funding";
-import GeneralFees from "./widgets/GeneralQuestionWidgets/Fees";
+import GeneralYoRHa from "./widgets/GeneralQuestionWidgets/YoRHa";
+import GeneralAndroids from "./widgets/GeneralQuestionWidgets/Androids";
+import GeneralThemes from "./widgets/GeneralQuestionWidgets/Themes";
 
 const botName = "9S";
 
@@ -53,41 +49,31 @@ const config = {
       },
     },
     {
-      widgetName: "generalFareplay",
-      widgetFunc: withAskAnother(GeneralFareplay),
+      widgetName: "generalYoRHa",
+      widgetFunc: withAskAnother(GeneralYoRHa),
     },
     {
-      widgetName: "generalPrivy",
-      widgetFunc: withAskAnother(GeneralPrivy),
+      widgetName: "generalAndroids",
+      widgetFunc: withAskAnother(GeneralAndroids),
     },
     {
-      widgetName: "generalFunding",
-      widgetFunc: withAskAnother(GeneralFunding),
+      widgetName: "generalThemes",
+      widgetFunc: withAskAnother(GeneralThemes),
+    },
+    { widgetName: "whatIsYoRHa", widgetFunc: withAskAnother(YoRHaInfo) },
+    { widgetName: "androidInfo", widgetFunc: withAskAnother(AndroidInfo) },
+    { widgetName: "modelTypes", widgetFunc: withAskAnother(ModelTypes) },
+    {
+      widgetName: "moralAmbiguity",
+      widgetFunc: withAskAnother(MoralAmbiguity),
     },
     {
-      widgetName: "generalFees",
-      widgetFunc: withAskAnother(GeneralFees),
+      widgetName: "androidBehaviors",
+      widgetFunc: withAskAnother(AndroidBehaviors),
     },
-    { widgetName: "fareplayInfo", widgetFunc: withAskAnother(FareplayInfo) },
-    { widgetName: "privyInfo", widgetFunc: withAskAnother(PrivyInfo) },
-    { widgetName: "whyPrivy", widgetFunc: withAskAnother(WhyPrivy) },
-    {
-      widgetName: "supportedNetworks",
-      widgetFunc: withAskAnother(SupportedNetworks),
-    },
-    { widgetName: "findWallet", widgetFunc: withAskAnother(FindWallet) },
-    {
-      widgetName: "associatedFees",
-      widgetFunc: withAskAnother(AssociatedFees),
-    },
-    { widgetName: "minAmount", widgetFunc: withAskAnother(MinimumAmount) },
-    { widgetName: "buyFare", widgetFunc: withAskAnother(BuyFare) },
-    { widgetName: "withdraw", widgetFunc: withAskAnother(Withdraw) },
-    {
-      widgetName: "troubleFunding",
-      widgetFunc: withAskAnother(TroubleFunding),
-    },
-    { widgetName: "casino", widgetFunc: withAskAnother(Casino) },
+    { widgetName: "purpose", widgetFunc: withAskAnother(Purpose) },
+    { widgetName: "withdraw", widgetFunc: withAskAnother(EthicalImplications) },
+    { widgetName: "organization", widgetFunc: withAskAnother(Organization) },
     { widgetName: "moreInfo", widgetFunc: (props) => <MoreInfo {...props} /> },
   ],
   botName: botName,

@@ -1,134 +1,130 @@
 {
   "FaqData": [
     {
-      "question": "What is Fareplay?",
+      "question": "What is YoRHa?",
       "answer": {
-        "info": "Fareplay is revolutionizing online gaming by creating the world's first truly decentralized casino platform. Here's what makes us unique:",
+        "info": "YoRHa is the name of an elite android military force in the Drakengard/NieR video game universe, primarily featured in NieR:Automata. Here's a breakdown: ",
         "features": [
           {
-            "list_item": "Smart Contract Gaming: Every game operates through transparent, audited smart contracts.",
-            "list_item_2": "No House Advantage: Unlike traditional casinos, we don't maintain a treasury or hold player funds.",
-            "list_item_3": "Innovative Tokenomics: Our FARE token system: Mints tokens when players win. Burns tokens when players lose. Creates a naturally deflationary economy.",
-            "list_item_4": "Fair Play Guarantee: All randomness is verified by Chainlink.Complete transparency in odds and outcomes. No hidden fees or manipulated results.",
-
-            "list_item_5": "Community Focused: Anyone can become a casino host. Players maintain full control of their funds. Regular updates and new games based on community feedback."
-          }
-        ],
-        "bottom_info": "Fareplay combines the excitement of casino gaming with the security and transparency of blockchain technology."
-      }
-    },
-    {
-      "question": "What is Privy?",
-      "answer": {
-        "info": "Privy is our secure wallet solution that makes getting started with Fareplay incredibly simple. Instead of dealing with complicated crypto wallets, you can sign in with familiar methods like Google, Discord, or email.",
-        "info_2": "Once you sign up, Privy automatically creates a secure web3 wallet for you - no seed phrases or technical knowledge required. This wallet is specifically designed for Fareplay, allowing you to deposit funds and start playing games immediately.",
-        "info_3": "Think of it as your personal gaming account that combines the security of blockchain with the simplicity of traditional login methods."
-      }
-    },
-    {
-      "question": "Why does Fareplay use Privy?",
-      "answer": {
-        "info": "We chose Privy because it solves the biggest challenge in web3 gaming: complexity. Traditional crypto wallets can be intimidating and risky for new users. With Privy, you get three major benefits:",
-        "features": [
-          {
-            "list_item": "Simple social login that feels familiar.",
-            "list_item_2": "A secure wallet that's automatically created and managed for you.",
-            "list_item_3": "Complete ownership of your funds - Fareplay never holds your money, it stays in your Privy wallet that only you control. This approach combines the best of web2 convenience with web3 security, making it easier for anyone to start playing without compromising on safety or control."
+            "list_item": "Purpose: YoRHa androids were created by the remnants of humanity (who fled to the moon) to fight a war against the machine lifeforms that had invaded Earth. Their ultimate goal is to reclaim Earth for humanity.",
+            "list_item_2": "Organization: YoRHa operates independently of the human Council of Humanity on the moon. They are based on a space station orbiting Earth.",
+            "list_item_3": "Themes: The YoRHa project explores themes of identity, purpose, the nature of humanity, and the ethics of war. The androids struggle with their programmed objectives versus their emerging sense of self.",
+            "list_item_4": "Tragedy: The YoRHa project is ultimately revealed to be a cycle of manipulation and planned obsolescence. The entire project, including the Council of Humanity, is a lie designed to keep the androids fighting and to eventually be destroyed to make way for a new generation of YoRHa units. This is a major plot point in NieR:Automata. In summary, YoRHa is a crucial element in the world of NieR, representing a complex and tragic attempt to reclaim Earth, while simultaneously questioning the very definition of what it means to be human (or android)."
           }
         ]
       }
     },
     {
-      "question": "What networks does Fareplay support for funding my account?",
+      "question": "List of androids?",
       "answer": {
-        "info": "Fareplay exclusively operates on Arbitrum, a layer-2 network known for its fast transactions and low fees. To fund your account, you'll need to send USDC on the Arbitrum network to your Privy wallet address. If you're new to Arbitrum, you can get started in two ways:",
+        "info": "Androids info",
+        "listItem": "No.2 Type B (2B): She served during the 14th Machine War. 2B is an all-purpose battle android, deployed as a member of the automated YoRHa infantry. She is equipped with a multitude of weapons for close quarters combat and can attack from range using the Pod support system.",
+        "listItem_2": "No.9 Type S (9S): 9S is a scanner-type android who served during the 14th Machine War. He has an attack function, but is overall an investigative android - a member of th eYorHa automated infantry unit, which excels in hacking and intelligence gathering.",
+        "listItem_3": "No. 2 Type A (A2): She was deployed to Earth as part of the Pearl Harbor Descent during the early years (3 years prior) of the 14th Machine War. She is a prototype of the YoRha android line, and combat data from her a nd her comrades were used to create the superior current lines.",
+        "listItem_4": "Anemone: The leader of the Resistance Camp. She was apart of the Resistance under the command of Rose during the 8th Machine War that took place over 200 years before Automata.",
+        "listItem_5": "Commander White: As the commander of all YoRHa forces, she determines all large-scale strategies as well as directs, deploys, and oversees all units from her station at the Bunker outpost in Earth's orbit.",
+        "listItem_6": "Devola: The older of the twins. The twins are defective Healer Models.",
+        "listItem_7": "Popola: The younger of the twins. Also a defective Healer Model.",
+        "listItem_8": "Operator 60: 2B's Operator Model. She is bright—albeit a bit scatterbrained and erratic—friendly, and personable.",
+        "listItem_9": "Operator 210: 9S' Operator Model. She is level-headed[3], cold, and impersonal. She shuns 9S's attempts at casual conversation and does not pay heed to his compliments of her. ",
+        "listItem_10": "Jackass: A member of the Resistance Camp against the machines on Earth.",
+        "listItem_11": "Lily: She is the leader of the Resistance in Ver1.1a. She hasa a steadfast personality and cares for her friends. During the 8th Machine War she was under the command of Rose.",
+        "listItem_12": "No.4 Type A: She is a unit from the experimental YoRHa squadron that was utilized during the 14th Machine War. Though she possessed an unusually bright and cheerful personality, she still managed to be effective when it came to engaging in close-quarters combat.",
+        "listItem_13": "No.16 Type G: She is also a unit of the experimental YoRHa squadron. She possessed a rough and tumble personality ideal for her role as a Gunner, where she was required to attack foes from a distance.",
+        "listItem_14": "No. 21 Type S: Another member of the experimental squadron. She possessed a cool and analytical personality that perfectly fit her role as a Scanner.",
+        "listItem_15": "Rose: The leader of the Resistance during the 8th Machine War."
+      }
+    },
+    {
+      "question": "Model Types:",
+      "answer": {
+        "info": "The YoRHa units are organized by type:",
         "features": [
           {
-            "list_item": "Purchase USDC directly through our integrated MoonPay service using your credit card.",
-            "list_item_2": "Transfer USDC from an exchange that supports Arbitrum withdrawals (like Coinbase or Binance). Remember to always select 'Arbitrum network' when sending funds to avoid any loss of assets."
+            "list_item": "Battle Models (type B): The standard combat model, equipped with swords and proficient in all-around combat. 2B is the most prominent example. These are the most common.",
+            "list_item_2": "Scanner Models (type S): Specialized in reconnaissance, gathering information, and hacking. 9S is the most prominent example.",
+            "list_item_3": "Attacker Models (type A): Specialized in close-quarters combat and berserker-style attacks, They are prototypes that are not supposed to be implemented, but YoRHa keeps a few in operation.",
+            "list_item_4": "Operator Models (type O): Provide support, communication, and mission briefings from the Bunker to the YoRHa units deployed on Earth. These are used to support other androids in the field, most often through communication. They act as mission control, relaying information, providing tactical advice, and managing data.",
+            "list_item_5": "Healer Models (type H): These are used for healing.",
+            "list_item_6": "Gunner Models (type G): These were used during the Pearl Harbor descent operation.",
+            "list_item_7": "Defender Models (type D): Used for defense.",
+            "list_item_8": "Zealot Models (type Z): Used for zealotry.",
+            "listed_item_9": "Executioner Models (type E): Their purpose is to execute other androids for insubordination, treason, or after uncovering classified information about YoRHa. Their model is officially meant for experimental purposes, but in truth they are meant to maintain order."
+          }
+        ],
+        "bottom_info": "Commander: The leader of YoRHa, who is usually stationed in the Bunker."
+      }
+    },
+    {
+      "question": "Morality?",
+      "answer": {
+        "info": "The creators of YoRHa, while acting with the best of intentions, engage in morally questionable actions. They choose to perpetuate a cycle of war and deception rather than face the possibility of nihilistic despair.",
+        "features": [
+          {
+            "list_item": "The biggest and most impactful deception is that humanity is *extinct*. YoRHa was created by androids using Project Gestalt's data to preserve the idea of a cause and provide a reason for androids to continue fighting.",
+            "list_item_2": "This lie is central to YoRHa's existence. It motivates the androids, gives them a purpose, and drives them to sacrifice themselves for a non-existent race."
           }
         ]
       }
     },
     {
-      "question": "How do I find my wallet address in Privy?",
+      "question": "What are the programmed android behaviors?",
       "answer": {
-        "info": "After signing up and completing the onboarding process, click the 'Add Funds' button in your account dashboard. This will open a modal showing your unique Privy wallet address.",
-        "info_2": "You can easily copy this address to send funds from an exchange or another wallet. The address will always start with '0x' and is specific to your account on the Arbitrum network.",
-        "info_3": "Pro tip: Always double-check the address when copying to ensure accurate transfers."
+        "listItem": "Inheritance: It helps the YoRHa units retain their personality and memories throughout various bodies by using the data within the network, allowing for the perpetuation of the cycle",
+        "listItem_2": "The Cycle of Destruction (and Rebirth?): The Backdoor: A critical component of the YoRHa system. After a set number of missions or after a particular event, all YoRHa units are instructed to return to the Bunker for 'maintenance.' During this maintenance, a backdoor is activated, infecting the network with a logic virus.",
+        "listItem_3": "Black Box: A core component of all YoRHa androids. It's essentially a highly unstable fusion reactor that serves as their power source. However, it also has a deeper significance: Shared Data Network: The Black Boxes are interconnected, allowing YoRHa units to share experiences, memories, and even emotions. This shared network is crucial for developing their personalities and fostering camaraderie."
       }
     },
     {
-      "question": "Are there any fees associated with using Privy or playing on Fareplay?",
+      "question": "THIS WILL BE REMOVE"
+    },
+    {
+      "question": "THIS WILL BE REMOVE"
+    },
+    {
+      "question": "The Purpose",
       "answer": {
-        "info": "Fareplay maintains a transparent fee structure:",
+        "info": "Preventing the Truth from Spreading:",
         "features": [
           {
-            "list_item": "A 1% edge on all games executed through the Farevault - this is significantly lower than traditional casinos which often charge 3-5%.",
-            "list_item_2": "A small fee paid to Chainlink (approximately $0.02) for providing verified randomness, ensuring completely fair and transparent gameplay.",
-            "list_item_3": "Network gas fees on Arbitrum for processing transactions - these are typically very low, around a few cents. There are no hidden fees, account maintenance charges, or withdrawal fees from Fareplay itself. All fees are transparently shown before you confirm any game or transaction."
+            "list_item": "Genesis: The Lunar Server and Project YoRHa (The Lie): The overarching narrative of the YoRHa organization hinges on a lie told to the androids of Earth. They are told that the last remnants of humanity are living on the Moon, having fled Earth to escape the machine lifeforms. This narrative serves as a beacon of hope, a reason to fight, and a foundation for their purpose. ",
+            "list_item_2": "The Real Purpose: The truth is far more complex and tragic. Project YoRHa was conceived by a group of android scientists and engineers on Earth. They knew humanity was long extinct, and the lie of the Lunar Server was created to maintain morale and prevent the complete despair and deactivation of the androids. The belief in humanity's survival gave them a purpose, driving them to fight against the machines.",
+            "list_item_3": "Gather Combat Data: YoRHa units were designed to be deployed, collect combat data, and relay it back to the Bunker, which in turn fed into the development of more advanced androids. This was, in essence, a never-ending cycle of combat and improvement, fueled by the data gathered from the deaths of its own soldiers.",
+            "list_item_4": "Prevent the Androids from Learning the Truth of Humanity's Extinction: This was perhaps the most crucial aspect. The creators feared that knowing the full truth would lead to nihilism, despair, and ultimately, the extinction of the androids themselves.",
+            "list_item_5": "The destruction of the Bunker and the reset of YoRHa units prevented the accumulated knowledge of the organization's true nature from spreading throughout the ranks."
           }
         ]
       }
     },
     {
-      "question": "Is there a minimum amount of FARE I need to play?",
+      "question": "Ehthical Implications:",
       "answer": {
-        "info": "While there's no strict minimum requirement to play, we recommend considering the economics of each bet carefully.",
-        "info_2": "Each game requires approximately $0.02 worth of FARE to cover Chainlink's randomness verification fee. For example, if you're betting $1, that $0.02 fee represents 2% of your bet, which can impact your expected returns.",
-        "info_3": "For optimal playing experience, we recommend starting with at least $10-20 worth of FARE to ensure the verification fees don't significantly impact your gaming experience.",
-        "info_4": "Remember, you can always start small and add more funds as you get comfortable with the platform."
-      }
-    },
-    {
-      "question": "Where can I buy FARE tokens?",
-      "answer": {
-        "info": "FARE tokens can be purchased directly on Uniswap, the leading decentralized exchange. Here's how to buy:",
+        "info": "Deception and Manipulation:",
         "features": [
           {
-            "list_item": "Visit Uniswap: https://app.uniswap.org/explore/tokens/arbitrum/0xfa4e888d9fbbcf4afa7bf057ecfe59ed04619e62",
-            "list_item_2": "Connect your wallet and ensure you're on the Arbitrum network.",
-            "list_item_3": "The FARE token contract address is: 0xFA4E888d9fBBcF4AfA7BF057ECfe59Ed04619e62",
-            "list_item_4": "Swap any supported token (USDC recommended) for FARE."
+            "list_item": "The YoRHa organization is built on a foundation of lies and manipulation. The androids are deliberately kept in the dark about their true purpose and the fate of humanity.",
+            "list_item_2": "",
+            "list_item_3": ""
           }
         ],
-        "bottom_info": "Always verify the contract address matches to avoid scams. The official FARE token will show verified status on Uniswap."
+        "bottom_info": ""
       }
     },
     {
-      "question": "How do I withdraw my winnings from Fareplay?",
+      "question": "THIS WILL BE REMOVE"
+    },
+    {
+      "question": "YoRHa Organization",
       "answer": {
-        "info": "Withdrawing your winnings is straightforward and fully under your control through your Privy wallet. You have several options:",
+        "info": "YoRHa is an elite military force of advanced androids designed to combat the invading aliens and machine lifeforms. Operating out of their headquarters in the Bunker, YoRHa is led by Command who receives orders from the Council of Humanity.",
+        "info_2": "YoRHa is also used to refer to the advanced android models themselves,sometimes referred to as YoRHa units or YoRHa-type androids. Such individuals are distinct from other models of android for their combat prowess and enhanced abilities.",
         "features": [
           {
-            "list_item": "Send your FARE directly to a supported exchange for conversion to other cryptocurrencies or fiat.",
-            "list_item_2": "Use Uniswap to swap FARE for other tokens on Arbitrum",
-            "list_item_3": "Hold your FARE tokens in your Privy wallet for future games or potential appreciation. To withdraw, simply click the 'Withdraw' button in your account dashboard, enter the destination address, and confirm the transaction."
-          }
-        ],
-        "bottom_info": "Always verify the receiving address and network (Arbitrum) before confirming any withdrawal."
-      }
-    },
-    {
-      "question": "What if I have problems funding my account?",
-      "answer": {
-        "info": "Our support team, led by Rush, is dedicated to helping you resolve any funding issues quickly.",
-        "info_2": "Join our Discord server (discord.gg/fareplay) and create a ticket in the #support channel. Tag Rush (@rush) in your message, and don't hesitate to be persistent - we want to ensure you get help quickly!",
-        "info_3": "Common issues we can help with include: transaction delays, network configuration, exchange withdrawals, and general wallet questions. We typically respond within minutes during peak hours."
-      }
-    },
-    {
-      "question": "How can I build my own casino?",
-      "answer": {
-        "info": "Welcome to the future of online gaming! Fareplay Protocol is revolutionizing the casino industry by becoming the 'Shopify of Casinos' - the most affordable and accessible way to launch your own online casino with instant liquidity.",
-        "info_2": "Our No-Code Casino Platform allows anyone to:",
-        "features": [
-          {
-            "list_item": "Launch Without Technical Knowledge: Zero coding required. No blockchain expertise needed. Instant setup with our drag-and-drop builder. Custom branding and theme options.",
-            "list_item_2": "Access Immediate Liquidity: Tap into Fareplay's shared liquidity pool. No upfront capital requirements. Instant payouts for your players.",
-            "list_item_3": "Benefit from Industry-Leading Economics: Lowest deployment costs in the industry. Minimal operational overhead. Competitive revenue sharing model. Built-in player acquisition tools.",
-            "list_item_4": "Get Started Immediately: Simple social media integration. Embed games directly in your existing platforms. Mobile-first design. Multi-platform support.",
-            "list_item_5": "Future Expansion Features: Custom game creation tools. Advanced analytics dashboard. Player management system. Marketing automation tools."
+            "list_item": "The Creators: The key figures behind Project YoRHa were primarily focused on survival and continuation. They were willing to sacrifice countless android lives to keep the illusion alive and ensure the androids continued to fight.",
+            "list_item_2": "The Bunker: The central hub of the YoRHa organization, a space station in orbit around Earth. It serves as a command center, research facility, and home base for YoRHa units. ",
+            "list_item_3": "Commander White: The leader of YoRHa, responsible for overseeing operations and issuing directives to the units on the ground. Her role is mostly administrative, although she carries the burden of the organization's secrets.",
+            "list_item_4": "Planned Obsolescence: The logic virus slowly corrupts the YoRHa units, eventually leading to the destruction of the Bunker and the need for a complete reset of the system.",
+            "list_item_5": "Perpetuating the Cycle of War: The endless cycle of destruction and rebuilding ensured the conflict between androids and machines would continue indefinitely, providing a sense of purpose and preventing the androids from seeking other options."
           }
         ]
       }
