@@ -61,35 +61,31 @@ export const ActionProvider = ({
         messages: [...prev.messages.slice(0, -1), botMsg], // replace loading
       }));
     },
-    handleGeneralFareplay: () =>
-      createMessage(
-        "Here are some Fareplay-related questions:",
-        "generalFareplay"
-      ),
-    handleGeneralPrivy: () =>
-      createMessage("Here are some Privy-related questions:", "generalPrivy"),
-    handleGeneralFunding: () =>
+    handleGeneralYoRHa: () =>
+      createMessage("Here are some YoRHa-related questions:", "generalYoRHa"),
+    handleGeneralAndroids: () =>
+      createMessage("Here are some Android-related questions:", "generalAndroids"),
+    handleGeneralThemes: () =>
       createMessage(
         "Here are some funding-related questions:",
-        "generalFunding"
+        "generalThemes"
       ),
     handleGeneralFees: () =>
       createMessage("Here are some fees-related questions:", "generalFees"),
-    handleFareplay: () =>
+    handleYoRHa: () =>
       createMessage(
-        "Here is what you need to know about Fareplay:",
-        "fareplayInfo"
+        "Here is what you need to know about YoRHa:",
+        "whatIsYoRHa"
       ),
-    handlePrivy: () =>
-      createMessage("Here is what you need to know about Privy:", "privyInfo"),
-    handleWhyPrivy: () =>
-      createMessage("Here is why we use Privy:", "whyPrivy"),
-    handleFindWallet: () =>
-      createMessage("Here is how you find your wallet in Privy:", "findWallet"),
+    handleAndroids: () =>
+      createMessage("Here is what you need to know about the Androids:", "androidInfo"),
+    handleModelTypes: () =>
+      createMessage("Here are the Model Types:", "modelTypes"),
+    handleAndroidBehaviors: () =>
+      createMessage("How are android behaviors programmed:", "androidBehaviors"),
     handleMinimumAmount: () =>
       createMessage("What is the minimum amount of FARE to play:", "minAmount"),
-    handleBuyFare: () =>
-      createMessage("Where can I buy FARE tokens:", "buyFare"),
+    handlePurpose: () => createMessage("What is YoRHa's Purpose:", "purpose"),
     handleWithdraw: () =>
       createMessage("How do I withdraw my winnings from Fareplay:", "withdraw"),
     handleTroubleFunding: () =>
@@ -107,8 +103,11 @@ export const ActionProvider = ({
         "What fees are associated with using Privy or playing on Fareplay:",
         "associatedFees"
       ),
-    handleCasino: () =>
-      createMessage("How to build your own casino:", "casino"),
+    handleOrganization: () =>
+      createMessage(
+        "Structure and hierarchy of the YoRHa organization:",
+        "organization"
+      ),
     handleMoreInfo: () => createMessage("More information:", "moreInfo"),
     handleAskAnother: () => createMessage("", "askAnother"),
   };

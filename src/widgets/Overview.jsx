@@ -3,18 +3,18 @@ import Options from "./Options";
 const GeneralOptions = (props) => {
   const options = [
     {
-      name: "Fareplay",
-      handler: props.actionProvider.handleGeneralFareplay,
+      name: "YoHRa",
+      handler: props.actionProvider.handleGeneralYoRHa,
       id: 1,
     },
     {
-      name: "Privy",
-      handler: props.actionProvider.handleGeneralPrivy,
+      name: "Androids",
+      handler: props.actionProvider.handleGeneralAndroids,
       id: 2,
     },
     {
-      name: "Funding",
-      handler: props.actionProvider.handleGeneralFunding,
+      name: "Themes",
+      handler: props.actionProvider.handleGeneralThemes,
       id: 3,
     },
     {

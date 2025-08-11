@@ -1,19 +1,19 @@
 import Options from "../Options";
 
-const GeneralFunding = (props) => {
+const GeneralThemes = (props) => {
   const options = [
     {
-      name: "Supported Networks?",
+      name: "Moral Ambiguity?",
       handler: props.actionProvider.handleSupportedNetworks,
       id: 1,
     },
     {
-      name: "How to withdraw winnings?",
+      name: "Ethical Implications?",
       handler: props.actionProvider.handleWithdraw,
       id: 2,
     },
     {
-      name: "Trouble funding account?",
+      name: "Unveiling the truth?",
       handler: props.actionProvider.handleTroubleFunding,
       id: 3,
     },
@@ -21,4 +21,4 @@ const GeneralFunding = (props) => {
   return <Options options={options} title="Funding Questions" {...props} />;
 };
 
-export default GeneralFunding;
+export default GeneralThemes;
