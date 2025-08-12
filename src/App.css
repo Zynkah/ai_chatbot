@@ -1,10 +1,12 @@
 /* peach: '#ffcd9e',
-  salmon: '#ff5e4f',
-  pink: '#d900d5',
-  blue: '#410dff',
-  aqua: '#4af5d3',
+  gold: #FDBD01,
+  darkGold: #CB8B00,
+  green: 228B22,
+  silver:  #C0C0C0,
   gray: '#34383f',
-  black: '#0a0a0a', */
+  black: '#0a0a0a',
+  red: #990000,
+   */
 
 #root {
   max-width: 1280px;
@@ -12,7 +14,20 @@
   padding: 2rem;
   text-align: center;
   font-size: 14px;
+  background-image: url("../public/2465448.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100svw;
+  padding-block: 10%;
+  height: 100%;
+  display: flex;
+}
 
+.chat-bot-container {
+  position: absolute;
+  bottom: 0;
+  right: 3%;
 }
 
 .bot-btn {
@@ -21,9 +36,14 @@
   align-items: center;
   justify-content: center;
   width: 275px;
-  border: 1px solid #d900d5;
+  border: 1px solid #fdbd01;
   background-color: #0a0a0a;
 }
+
+/* .bot-btn:focus {
+  border: 1px solid #fdbd01 !important;
+
+} */
 
 /* .react-chatbot-kit-chat-container {
   border: 1px solid white;
@@ -65,9 +85,10 @@
   color: #34383f !important;
 }
 
-/* .react-chatbot-kit-chat-btn-send {
-border: 1px solid red;
-} */
+.react-chatbot-kit-chat-btn-send {
+  border: 1px solid #fdbd01 !important;
+  border-radius: 6px;
+}
 
 /* .react-chatbot-kit-chat-btn-send-icon {
   border: 1px solid red;
@@ -92,23 +113,23 @@ border: 1px solid red;
 .react-chatbot-kit-user-chat-message {
   background-color: black !important;
   color: white !important;
-  border: 1px solid #ff5e4f;
+  border: 1px solid #c0c0c0;
   margin-right: 10px;
 }
 
 .react-chatbot-kit-user-chat-message-arrow {
-  border-left-color: #ff5e4f !important;
+  border-left-color: #c0c0c0 !important;
   right: -8px !important;
 }
 
 .react-chatbot-kit-chat-bot-message {
-  border: 1px solid #d900d5;
+  border: 1px solid #fdbd01;
   background-color: black !important;
   margin-left: 10px !important;
 }
 
 .react-chatbot-kit-chat-bot-message-arrow {
-  border-right-color: #d900d5 !important;
+  border-right-color: #fdbd01 !important;
   left: -8px !important;
 }
 
