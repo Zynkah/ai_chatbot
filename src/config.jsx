@@ -81,11 +81,13 @@ const config = {
     header: () => (
       <div
         style={{
-          backgroundColor: "#d900d5",
+          backgroundColor: "black",
+          border: "1px solid #FDBD01",
+          borderRadius: "3px",
           padding: "10px",
-          borderTopLeftRadius: "3px",
-          borderTopRightRadius: "3px",
-          borderBottom: "2px solid black",
+          borderTopLeftRadius: "6px",
+          borderTopRightRadius: "6px",
+          borderBottom: "1px solid #FDBD01",
         }}
       >
         Conversation with 9S
@@ -101,7 +103,8 @@ const config = {
       backgroundColor: "#000",
     },
     chatButton: {
-      backgroundColor: "#d900d5",
+      backgroundColor: "black",
+  
     },
   },
 };
