@@ -28,7 +28,10 @@ export const ChatComponent = () => {
           saveMessages={saveMessages}
         />
       )}
-      <button className="bot-btn" onClick={() => toggleBot((prev) => !prev)}>
+      <button
+        className="primary-btn"
+        onClick={() => toggleBot((prev) => !prev)}
+      >
         {showBot ? "Withdrawal 9S" : "Deploy 9S"}
       </button>
     </div>

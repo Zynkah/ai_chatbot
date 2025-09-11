@@ -1,17 +1,22 @@
 import "./App.css";
 import { ChatComponent } from "./components/ChatComponent";
 import { ModelTypesGrid } from "./components/Androids/ModelTypesGrid";
-
+import { Navbar } from "./components/navbar";
+import { Footer } from "./components/Footer";
 function App() {
   return (
-    <div style={{ margin: 'auto'}}>
-      {/* <img src="../2B_Nier_Automata.png" alt="2B" /> */}
-      {/* <img src="../2465448.svg" style={{ position: 'absolute', top: 0, left: 0, objectFit:'cover' }} /> */}
-      <ModelTypesGrid />
-      <div class='chat-bot-container'>
+    <main className="main-container">
+      <Navbar />
+      <div className='hero'>
+        {/* <ModelTypesGrid /> */}
+        <h1>Hacking into NIER...</h1>
+        <img src='../cover_art.jpg' />
+       </div> 
+      <div className="chat-bot-container">
         <ChatComponent />
-      </div>
-    </div>
+        </div>
+      <Footer />
+    </main> 
   );
 }
 

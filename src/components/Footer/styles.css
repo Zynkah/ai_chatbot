@@ -1,0 +1,9 @@
+.footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100svw;
+    height: 60px;
+    background: black;
+    border-top: 1px solid #34383f;
+}
