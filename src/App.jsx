@@ -10,7 +10,7 @@ function App() {
       <div className='hero'>
         {/* <ModelTypesGrid /> */}
         <h1>Hacking into NIER...</h1>
-        <img src='../cover_art.jpg' />
+        <img src='../cover_art.jpg' alt="cover art background" />
        </div> 
       <div className="chat-bot-container">
         <ChatComponent />
