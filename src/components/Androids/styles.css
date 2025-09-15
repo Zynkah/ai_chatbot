@@ -37,6 +37,7 @@
     opacity: 0.55;
 } */
 
+
 .icon-title {
   position: absolute;
   left: 50%;
@@ -44,7 +45,7 @@
   font-size: 20px;
   transform: translate(-50%, -50%);
   display: none;
-  color: #FDBD01;
+  color: #fdbd01;
   font-weight: bold;
   /* z-index: 1; */
   user-select: none;
@@ -62,5 +63,5 @@
 .icon-image:hover {
   opacity: 0.35;
   cursor: pointer;
-  transform: scale(1.05)
+  transform: scale(1.05);
 }

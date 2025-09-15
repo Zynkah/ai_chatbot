@@ -1,9 +1,10 @@
-import './styles.css'
 
 export const Footer = () => {
     return (
         <div className='footer-wrapper'>
-            <p>FOOTER</p>
+            <ul>
+                <li>Contact</li>
+            </ul>
         </div>
     )
 } 
