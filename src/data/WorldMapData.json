@@ -1,0 +1,88 @@
+{
+  "WorldMapData": [
+    {
+      "id": 1,
+      "title": "bunker",
+      "image": "../Bunker.webp",
+      "alt": "bunker image",
+      "width": 150
+    },
+    {
+      "id": 2,
+      "title": "abandoned factory",
+      "image": "../Abandoned_Factory.webp",
+      "alt": "abandoned factory",
+      "width": 150
+    },
+    {
+      "id": 3,
+      "title": "city ruins",
+      "image": "../City_Ruins.webp",
+      "alt": "city ruins",
+      "width": 150
+    },
+    {
+      "id": 4,
+      "title": "resistance camp",
+      "image": "../Resistance_Camp.webp",
+      "alt": "resistance camp",
+      "width": 165
+    },
+    {
+      "id": 5,
+      "title": "desert zone",
+      "image": "../Desert_Zone.webp",
+      "alt": "desert zone",
+      "width": 165
+    },
+    {
+      "id": 6,
+      "title": "amusement park",
+      "image": "../Amusement_Park.jpg",
+      "alt": "amusement park",
+      "width": 150
+    },
+    {
+      "id": 7,
+      "title": "pascal's village",
+      "image": "../Amusement_Park.jpg",
+      "alt": "amusement park",
+      "width": 150
+    },
+    {
+      "id": 8,
+      "title": "pascal's village",
+      "image": "../Pascal_Village.webp",
+      "alt": "pascal village",
+      "width": 150
+    },
+    {
+      "id": 9,
+      "title": "forest kingdom",
+      "image": "../Forest_Kingdom.webp",
+      "alt": "forest kingdom",
+      "width": 150
+    },
+    {
+      "id": 10,
+      "title": "flooded city",
+      "image": "../Flooded_City.webp",
+      "alt": "flooded city",
+      "width": 150
+    },
+    {
+      "id": 11,
+      "title": "alien ship",
+      "image": "../Alien_Ship.webp",
+      "alt": "alien ship",
+      "width": 150
+    },
+    {
+      "id": 12,
+      "title": "copied city",
+      "image": "../Copied_City.webp",
+      "alt": "copied city",
+      "width": 150
+    }
+  ]
+}

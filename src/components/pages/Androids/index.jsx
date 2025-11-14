@@ -1,13 +1,7 @@
 import "./styles.css";
+import { icons } from "../../Icons";
 
-const icons = (name, image, alt = "", width = 100) => (
-  <div className="icon-wrapper">
-    <p className="icon-title">{name}</p>
-    <img src={image} alt={alt} width={width} className="icon-image" />
-  </div>
-);
-
-export const ModelTypesGrid = () => {
+export const Androids = () => {
   return (
     <div className="grid-wrapper">
       <h2>YoRHa Android Models</h2>
