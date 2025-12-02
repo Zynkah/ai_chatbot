@@ -1,22 +1,28 @@
 import "./App.css";
 import { ChatComponent } from "./components/ChatComponent";
-import { ModelTypesGrid } from "./components/Androids/ModelTypesGrid";
 import { Navbar } from "./components/navbar";
 import { Footer } from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import { Androids } from "./components/pages/Androids";
+import { Home } from "./components/pages/Home";
+import { Yorha } from "./components/pages/Yohra";
+import { World } from "./components/pages/World";
+
 function App() {
   return (
     <main className="main-container">
       <Navbar />
-      <div className='hero'>
-        {/* <ModelTypesGrid /> */}
-        <h1>Hacking into NIER...</h1>
-        <img src='../cover_art.jpg' alt="cover art background" />
-       </div> 
+      <Routes>
+        <Route path="home" element={<Home />} />
+        <Route path="/yorha" element={<Yorha />} />
+        <Route path="/androids" element={<Androids />} />
+        <Route path="/world" element={<World />} />
+      </Routes>
       <div className="chat-bot-container">
         <ChatComponent />
-        </div>
+      </div>
       <Footer />
-    </main> 
+    </main>
   );
 }
 

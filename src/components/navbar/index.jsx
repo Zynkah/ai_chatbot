@@ -1,20 +1,22 @@
+import { Link } from "react-router-dom";
+
 export const Navbar = () => {
   return (
     <div className="navbar-wrapper">
       <ul>
         <li>
-          <a>
+          <Link to='/home'>
             <img src="../Lunar_Tear.webp" alt="home icon" width={24} />
-          </a>
+          </Link>
         </li>
         <li>
-          <a>YoRHa</a>
+          <Link to='/yorha'>YoRHa</Link>
         </li>
         <li>
-          <a>Androids</a>
+          <Link to='/androids'>Androids</Link>
         </li>
         <li>
-          <a>World</a>
+          <Link to='world'>World</Link>
         </li>
       </ul>
     </div>
