@@ -1,3 +1,5 @@
+import { SGridContainer, SGridWrapper } from "../pages/Androids/styles";
+
 interface GridLayoutProps {
   title_1: string;
   title_2?: string;
@@ -20,9 +22,9 @@ export const GridLayout = ({
   content_block_4,
 }: GridLayoutProps) => {
   return (
-    <div className="grid-wrapper">
+    <SGridWrapper>
       <h2>{title_1}</h2>
-      <div className="grid-container">{content_block_1}</div>
+      <SGridContainer>{content_block_1}</SGridContainer>
       {content_block_2 && title_2 && (
         <>
           <h2>{title_2}</h2>
@@ -41,6 +43,6 @@ export const GridLayout = ({
           <div className="grid-container">{content_block_4}</div>
         </>
       )}
-    </div>
+    </SGridWrapper>
   );
 };
