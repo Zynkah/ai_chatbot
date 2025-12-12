@@ -1,4 +1,3 @@
-import "./styles.css";
 import { icons } from "../../Icons";
 import { SGridWrapper, SGridContainer, SSmallGridContainer } from "./styles";
 import AndroidListData from "../../../data/AndroidListData.json";
