@@ -1,0 +1,103 @@
+{
+  "YoRHaAndroidListData": [
+    {
+      "name": "2B",
+      "image": "../2B_Icon.webp",
+      "alt": "2B Icon"
+    },
+    {
+      "name": "9S",
+      "image": "../9S_Icon.webp",
+      "alt": "9S Icon"
+    },
+    {
+      "name": "A2",
+      "image": "../A2_Icon.webp",
+      "alt": "A2 Icon"
+    },
+    {
+      "name": "Commander White",
+      "image": "../Commander_White_Icon.webp",
+      "alt": "Commander White Icon"
+    },
+    {
+      "name": "Devola",
+      "image": "../Devola_Icon.webp",
+      "alt": "Devola Icon"
+    },
+    {
+      "name": "Popola",
+      "image": "../Popola_Icon.webp",
+      "alt": "Popola Icon"
+    },
+    {
+      "name": "6O",
+      "image": "../6O_Icon.webp",
+      "alt": "6O Icon"
+    },
+    {
+      "name": "21O",
+      "image": "../21O_Icon.webp",
+      "alt": "21O Icon"
+    }
+  ],
+  "ResistanceAndroidListData": [
+    {
+      "name": "Anemone",
+      "image": "../Anemone_Icon.webp",
+      "alt": "Anemone Icon"
+    },
+    {
+      "name": "Jackass",
+      "image": "../Jackass_Icon.webp",
+      "alt": "Jackass Icon"
+    },
+    {
+      "name": "Rose",
+      "image": "../Rose_Icon.webp",
+      "alt": "Rose Icon"
+    }
+  ],
+  "V1AndroidListData": [
+    {
+      "name": "Lily",
+      "image": "../Lily_Icon.webp",
+      "alt": "Lily Icon"
+    },
+    {
+      "name": "A4",
+      "image": "../A4_Icon.webp",
+      "alt": "A4 Icon"
+    },
+    {
+      "name": "G16",
+      "image": "../G16_Icon.webp",
+      "alt": "G16 Icon"
+    },
+    {
+      "name": "S21",
+      "image": "../S21_Icon.webp",
+      "alt": "S21 Icon"
+    },
+    {
+      "name": "Dahlia",
+      "image": "../Dahlia_Icon.webp",
+      "alt": "Dahlia Icon"
+    },
+    {
+      "name": "Daisy",
+      "image": "../Daisy_Icon.webp",
+      "alt": "Daisy Icon"
+    },
+    {
+      "name": "Gerbera",
+      "image": "../Gerbera_Icon.webp",
+      "alt": "Gerbera Icon"
+    },
+    {
+      "name": "Margaret",
+      "image": "../Margaret_Icon.webp",
+      "alt": "Margaret Icon"
+    }
+  ]
+}

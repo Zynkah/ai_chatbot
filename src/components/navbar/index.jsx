@@ -5,18 +5,21 @@ export const Navbar = () => {
     <div className="navbar-wrapper">
       <ul>
         <li>
-          <Link to='/home'>
+          <Link to="/home">
             <img src="../Lunar_Tear.webp" alt="home icon" width={24} />
           </Link>
         </li>
         <li>
-          <Link to='/yorha'>YoRHa</Link>
+          <Link to="/yorha">YoRHa</Link>
         </li>
         <li>
-          <Link to='/androids'>Androids</Link>
+          <Link to="/androids">Androids</Link>
         </li>
         <li>
-          <Link to='world'>World</Link>
+          <Link to="/robots">Robots</Link>
+        </li>
+        <li>
+          <Link to="world">World</Link>
         </li>
       </ul>
     </div>

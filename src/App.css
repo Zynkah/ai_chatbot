@@ -54,9 +54,9 @@
 }
 
 .chat-bot-container {
-  position: absolute;
-  right: 10px;
-  bottom: 70px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
 }
 
 .primary-btn {
@@ -64,9 +64,17 @@
   margin: 16px auto;
   align-items: center;
   justify-content: center;
-  width: 230px;
+  width: 280px;
+  height: 60px;
   border: 1px solid var(--gold);
   background-color: var(--black);
+  box-shadow: 4px 4px 0 0 #CB8B00;
+  transition: all 0.5s ease;
+}
+
+.primary-btn:active {
+  transform: translateY(10px) translateX(10px);
+  box-shadow: 0px 0px 0 0 #CB8B00;
 }
 
 .react-chatbot-kit-chat-message-container {
@@ -121,8 +129,7 @@
   left: -8px !important;
 }
 
-.navbar-wrapper,
-.footer-wrapper {
+.navbar-wrapper {
   position: absolute;
   left: 0;
   width: 100%;
@@ -154,13 +161,4 @@
 
 .navbar-wrapper {
   top: 0;
-}
-
-.footer-wrapper {
-  bottom: 0;
-  justify-content: flex-end;
-
-  ul {
-    margin-right: 40px;
-  }
 }
