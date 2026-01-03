@@ -45,40 +45,33 @@
     {
       "id": 7,
       "title": "pascal's village",
-      "image": "../Amusement_Park.jpg",
-      "alt": "amusement park",
-      "width": 150
-    },
-    {
-      "id": 8,
-      "title": "pascal's village",
       "image": "../Pascal_Village.webp",
       "alt": "pascal village",
       "width": 150
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "forest kingdom",
       "image": "../Forest_Kingdom.webp",
       "alt": "forest kingdom",
       "width": 150
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "flooded city",
       "image": "../Flooded_City.webp",
       "alt": "flooded city",
       "width": 150
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "alien ship",
       "image": "../Alien_Ship.webp",
       "alt": "alien ship",
       "width": 150
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "copied city",
       "image": "../Copied_City.webp",
       "alt": "copied city",

@@ -1,0 +1,53 @@
+{
+  "MachineMapData": [
+    {
+      "id": 1,
+      "title": "Pod 042",
+      "image": "../Pod_042_Icon.webp",
+      "alt": "pod 042",
+      "width": 100
+    },
+    {
+      "id": 2,
+      "title": "Pod 153",
+      "image": "../Pod_153_Icon.webp",
+      "alt": "pod 153",
+      "width": 100
+    },
+    {
+      "id": 3,
+      "title": "Adam",
+      "image": "../Adam_Icon.webp",
+      "alt": "adam icon",
+      "width": 100
+    },
+    {
+      "id": 4,
+      "title": "Eve",
+      "image": "../Eve_Icon.webp",
+      "alt": "eve icon",
+      "width": 100
+    },
+    {
+      "id": 5,
+      "title": "Pascal",
+      "image": "../Pascal_Icon.webp",
+      "alt": "pascal icon",
+      "width": 100
+    },
+    {
+      "id": 6,
+      "title": "Emil",
+      "image": "../Emil_Portrait.webp",
+      "alt": "emil icon",
+      "width": 100
+    },
+    {
+      "id": 7,
+      "title": "Red Girls",
+      "image": "../Red_Girl_Icon.webp",
+      "alt": "red girls",
+      "width": 100
+    }
+  ]
+}

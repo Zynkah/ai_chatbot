@@ -10,6 +10,18 @@ export const SGridWrapper = styled.div`
   h2 {
     color: #fdbd01;
     font-size: 1.75rem;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 `;
 

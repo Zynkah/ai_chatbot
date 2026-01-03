@@ -1,11 +1,22 @@
 {
-    "ModelData":
-    [
-        {
-            "id": 1,
-            "title": "No.2 Type B (2B)",
-            "image": "/2B_Nier_Automata.png",
-            "description": "She served during the 14th Machine War. 2B is an all-purpose battle android, deployed as a member of the automated YoRHa infantry. She is equipped with a multitude of weapons for close quarters combat and can attack from range using the Pod support system."
-        }
-    ]
+  "ModelData": [
+    {
+      "id": 1,
+      "title": "No.2 Type B (2B)",
+      "image": "/2B_Nier_Automata.png",
+      "description": "She served during the 14th Machine War. 2B is an all-purpose battle android, deployed as a member of the automated YoRHa infantry. She is equipped with a multitude of weapons for close quarters combat and can attack from range using the Pod support system."
+    },
+    {
+      "id": 2,
+      "title": "No.9 Type S (9S)",
+      "image": "/No.9_Type_S.webp",
+      "description": "He served during the 14th Machine War. He has an attack function, but is overall an investigative-andriod - a member of the YoRHa automated infantry unit, which excells in hacking intellegence gathering."
+    },
+    {
+      "id": 3,
+      "title": "No.2 Type A (A2)",
+      "image": "/YoRHa_No.2A.webp",
+      "description": "She is the prototype of the YoRHa andoid line, and combat data from her and her comrades were used to create the superior current lines. She doesn't like to speak and often keeps to herself."
+    }
+  ]
 }

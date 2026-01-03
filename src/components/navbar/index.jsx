@@ -16,7 +16,7 @@ export const Navbar = () => {
           <Link to="/androids">Androids</Link>
         </li>
         <li>
-          <Link to="/robots">Robots</Link>
+          <Link to="/machines">Machines</Link>
         </li>
         <li>
           <Link to="world">World</Link>

@@ -10,7 +10,13 @@ export const World = () => {
       content_block_1={
         <>
           {WorldMapData.map((location) =>
-            icons(location.title, location.image, location.alt, location.width)
+            icons(
+              location.id,
+              location.title,
+              location.image,
+              location.alt,
+              location.width
+            )
           )}
         </>
       }
